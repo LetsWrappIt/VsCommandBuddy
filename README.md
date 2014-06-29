@@ -2,8 +2,8 @@
 
 This repository will be a place where support for VsCommandBuddy will be provided in the form of examples and announcements.
 
-Note: VsCommandBuddy is green. The product works. The focus will be on improving documentation and examples. Feel free to suggest feature requests.
-And if you run into any problem, please open up an issue, so we can see if the problem can be fixed. 
+Note: VsCommandBuddy is green. The product works. Status is best described as mvp. The focus will be on improving documentation and 
+examples and add various functionality. Feel free to suggest feature requests. And if you run into any problem, please open up an issue, so we can see if the problem can be fixed. 
 
 
 ## Intro to VsCommandBuddy
@@ -123,7 +123,7 @@ That's it, you're done. Startup Visual Studio and open up the example solution y
 
 
 ## Documentation
-Additional documentation will bve provided in the (docs folder)[docs] of this repository.
+Additional documentation can be found in the docs folder of this repository.
 
 
 ## Next?
