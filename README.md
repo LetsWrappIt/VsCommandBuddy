@@ -122,6 +122,10 @@ for an understanding of the purpose of the example and potentially additional re
 That's it, you're done. Startup Visual Studio and open up the example solution you whish to explore. 
 
 
+## Documentation
+Additional documentation will bve provided in the (docs folder)[docs] of this repository.
+
+
 ## Next?
 Did you give VsCommandBuddy a go? Please share your experience. If VsCommandBuddy helps you in your daily work, share it everywhere ;-)  
 If your experience is less positive, open an issue and make it known!! Thats the only way it will be able to respond and get issues resolved.
@@ -131,3 +135,7 @@ We're eager to receive your bugreports, documentation errors, feature requests o
 Happy Coding!! 
 
 Paul
+
+
+
+
