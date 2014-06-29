@@ -125,7 +125,6 @@ That's it, you're done. Startup Visual Studio and open up the example solution y
 ## Documentation
 Additional documentation can be found in the docs folder of this repository.
 
-
 ## Next?
 Did you give VsCommandBuddy a go? Please share your experience. If VsCommandBuddy helps you in your daily work, share it everywhere ;-)  
 If your experience is less positive, open an issue and make it known!! Thats the only way it will be able to respond and get issues resolved.
