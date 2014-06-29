@@ -123,7 +123,7 @@ That's it, you're done. Startup Visual Studio and open up the example solution y
 
 
 ## Documentation
-Additional documentation will bve provided in the (docs folder)[docs] of this repository.
+Additional documentation will bve provided in the [docs folder](docs) of this repository.
 
 
 ## Next?
