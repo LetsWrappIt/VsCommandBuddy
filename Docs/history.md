@@ -1,7 +1,7 @@
 # History
 - 2014-06-24 Version 1.0 Initial release
 - 2014-06-27 Added generation of example configuration file.
-- 2014-06-27 Opened [Github repository VsCommandBuddy]("./../README.md") for more info, examples and discussion.
+- 2014-06-27 Opened [Github repository VsCommandBuddy](./../README.md) for more info, examples and discussion.
 
 - 2014-06-30 
 	* Bumbed version to VsCommandBuddy to v1.1
