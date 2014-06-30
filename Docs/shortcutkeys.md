@@ -11,21 +11,22 @@ The 'key' fields contain a key, and the 'mod' fields contain one or more modifie
 
 Shortcut key definitions are optional. If no shortcut is defined, the command can be selected by clicking the appropriate menu or toolbox item.
 
-## Valid key values
+## Valid key and mod values 
+### Valid key values
 - a, b, c, .. z
 - 1, 2, 3, .. 0
 - F1, F2, F3 .. F24
 - Esc, Home, PageUp, PageDown, End, Left, Right, Up, Down, Tab
   
 
-## Valid modifier values
+### Valid modifier values
 - CTRL
 - ALT
 - SHIFT
 
 You can specify more than one modifier per key. Multiple modifiers need to be seperated by space.
 
-## Examples:
+## Examples
 
 ### One-key example
 - key1: F1
