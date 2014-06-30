@@ -22,12 +22,12 @@ other VS Developers to use it as well. Let's hope, it will prove to be a valuabl
  
 Happy Coding!! 
 Paul
-
+?
 
 ## Documentation
 VsCommandBuddy documentation can be found on the github repository VsCommandBuddy in the docs folder in the root. 
 Some interesting reading include:
-- /docs/usecases.md Use Cases
+- [Use Cases](docs/usecases.md)
 - Getting Started
 - Built in commands
 - Vscb Config files
