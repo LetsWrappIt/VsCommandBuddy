@@ -27,7 +27,7 @@ Paul
 ## Documentation
 VsCommandBuddy documentation can be found on the github repository VsCommandBuddy in the docs folder in the root. 
 Some interesting reading include:
-- \docs\usecases.md Use Cases
+- /docs/usecases.md Use Cases
 - Getting Started
 - Built in commands
 - Vscb Config files
