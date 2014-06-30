@@ -5,24 +5,23 @@ VsCommandBuddy allows you to dynamically add new commands to Visual Studio IDE u
 of your solution and/or projects. This means that the commands will stay with your work. Customization of your solutions/projects
 will stay where you need it. 
 
-In a situation where you work with multiple projects and or solutions, we're confident that VsCommandBuddy will
-be a valuable asset in your toolbox, linking all kinds of goodies into a compact and versatile dev environment.
+In a situation where you work with multiple projects and or solutions, we're confident that VsCommandBuddy will be a valuable asset in your 
+toolbox, linking all kinds of goodies into a compact and versatile development environment.
+If you work with more than one person on projects, the benefit of organizing your project related commands will be even more significant. Every collaborator 
+will be instantly up-to-date with all commands needed for all the 'external stuff' that needs to be done on projects.
 
 Through its easy configuration of external commands, and keeping those commands next your solutions .. it has become very easy to benefit 
 in your VS projects from all the functionality from other development stacks suchs as nodejs/grunt/gulp and many more. Visual Studio is an 
-awesome IDE, packed with features ... but, outside of Visual Studio, lives a huge amount of other technologies and tools which you sometimes 
-wouldn't want to miss either. Using VsCommandBuddy you can easily integrate most technologies within visual studio. It will enhance productivity 
+awesome IDE, packed with features ... but, outside of Visual Studio, lives a huge amount of other technologies and tools which you often 
+wouldn't want to miss either. Using VsCommandBuddy you can easily integrate most technologies within Visual Studio. It will enhance productivity 
 in Visual Studio instantly!!
 
-If your projects are shared between more than one developer, the config files are shared just as easily. Giving all collaborators the same
-commands and power to work with the project.
-
-VsCommandBuddy is a typical scratch-your-own-itch project. As it turned out rather usefull, the decision was guickly made to put it online for 
+VsCommandBuddy is a typical scratch-your-own-itch project. As it turned out rather usefull (understatement), the decision was guickly made to put it online for 
 other VS Developers to use it as well. Let's hope, it will prove to be a valuable buddy for many of us vs devs!!
  
 Happy Coding!! 
 Paul
-?
+
 
 ## Documentation
 VsCommandBuddy documentation can be found on the github repository VsCommandBuddy in the docs folder in the root. 
