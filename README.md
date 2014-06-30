@@ -13,8 +13,8 @@ will be instantly up-to-date with all commands needed for all the 'external stuf
 Through its easy configuration of external commands, and keeping those commands next your solutions .. it has become very easy to benefit 
 in your VS projects from all the functionality from other development stacks suchs as nodejs/grunt/gulp and many more. Visual Studio is an 
 awesome IDE, packed with features ... but, outside of Visual Studio, lives a huge amount of other technologies and tools which you often 
-wouldn't want to miss either. Using VsCommandBuddy you can easily integrate most technologies within Visual Studio. It will enhance productivity 
-in Visual Studio instantly!!
+wouldn't want to miss either. Choosing between the one or the other is no longer required. Using VsCommandBuddy you can easily integrate most technologies 
+within Visual Studio. It will let Visual Studio shine even more than before!
 
 VsCommandBuddy is a typical scratch-your-own-itch project. As it turned out rather usefull (understatement), the decision was guickly made to put it online for 
 other VS Developers to use it as well. Let's hope, it will prove to be a valuable buddy for many of us vs devs!!
