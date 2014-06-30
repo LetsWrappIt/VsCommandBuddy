@@ -28,8 +28,8 @@ Paul
 VsCommandBuddy documentation can be found on the github repository VsCommandBuddy in the docs folder in the root. 
 Some interesting reading include:
 - [Use Cases](Docs/usecases.md)
-- [Getting Started](Docs/gettingstarted/md)
-- [Built in commands](Docs/builtincommands)
+- [Getting Started](Docs/gettingstarted.md)
+- [Built in commands](Docs/builtincommands.md)
 - [Vscb Config files](Docs/vscbfiles.md)
 - [Shortcut keys](Docs/shortcutkeys.md)
 - [Macros](Docs/macros.md)
