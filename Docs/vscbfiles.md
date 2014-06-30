@@ -30,3 +30,5 @@ The fastest way however is to simply generate sample vscb files into your soluti
 VsCommandBuddy and loaded an existing Visual Studio Solution into Visual Studio.  Choose the build-in Generate vscb function which
 you'll find in the Tools menu.
 
+
+
