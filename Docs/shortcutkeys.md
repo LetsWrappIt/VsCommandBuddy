@@ -27,17 +27,17 @@ You can specify more than one modifier per key. Multiple modifiers need to be se
 
 ## Examples:
 
-### One key example
-key1: F1
-mod1: SHIFT ALT
+### One-key example
+- key1: F1
+- mod1: SHIFT ALT
 Command is invoked by SHIFT-ALT-F1
 
 
-### Two keys example:
-key1: 1
-mod1: CTRL SHIFT
-key2: a
-mod2: CTRL SHIFT
+### Two-keys example:
+- key1: 1
+- mod1: CTRL SHIFT
+- key2: a
+- mod2: CTRL SHIFT
 Command is invoked by pressing CTRL-SHIFT-1 followed by CTRL-SHIFT-a
 
 
