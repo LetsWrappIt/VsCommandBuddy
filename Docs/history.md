@@ -14,5 +14,10 @@
 	* Fixed bug when generating sample project vscb configuration files.
 	* Fixed documentation accordingly
 
+- 2014-06-31
+	* Bumbed version to VsCommandBuddy to v1.3
+	* Added more robust errorhandling and better logging at some keypoints to improve analisys in case refresh command or command invocation fails.
+
+
 Get the latest VsCommandBuddy here: [Download latest VsCommandBuddy](http://visualstudiogallery.msdn.microsoft.com/f5da988e-2ec1-4061-a569-46d09733c668)
 
