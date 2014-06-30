@@ -38,8 +38,8 @@ Some interesting reading include:
 
 ## Feedback???
 Did you give VsCommandBuddy a go? Please share your experience. If VsCommandBuddy helps you in your daily work, share it everywhere ;-)  
-If your experience is less positive, open an issue and make it known!! Thats the only way it will be able to respond and get issues resolved.
-We're eager to receive your bugreports, documentation errors, feature requests or any other thoughts you might have on VsCommandBuddy!
+If your experience is less positive, open an issue and make it known!! Thats the only way it will be possible to respond and get issues resolved.
+We're eager to receive bugreports, documentation errors, feature requests or any other thoughts you might have on VsCommandBuddy!
 
 
 
