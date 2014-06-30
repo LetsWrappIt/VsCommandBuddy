@@ -5,7 +5,7 @@ VisualStudioVersion = 12.0.30501.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelloWorld", "HelloWorld\HelloWorld.csproj", "{2F5DC421-3ED9-47CD-8BA8-4E82CD57B2B6}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{C275C45D-C559-4016-8EAD-A1736856EB7F}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{A9CD26E8-2C6F-4C1D-89C6-A1A401867AB2}"
 	ProjectSection(SolutionItems) = preProject
 		bat\logprojectmacros.bat = bat\logprojectmacros.bat
 		bat\logsolutionmacros.bat = bat\logsolutionmacros.bat
