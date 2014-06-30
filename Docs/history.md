@@ -14,5 +14,5 @@
 	* Fixed bug when generating sample project vscb configuration files.
 	* Fixed documentation accordingly
 
-
+Get the latest VsCommandBuddy here: (Download latest VsCommandBuddy)[http://visualstudiogallery.msdn.microsoft.com/f5da988e-2ec1-4061-a569-46d09733c668]
 
