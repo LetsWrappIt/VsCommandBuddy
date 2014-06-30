@@ -1,0 +1,20 @@
+﻿{
+  "commands": [
+    {
+      "cmdname": "logsolutionmacros",
+      "title": "Log Solution Macros",
+      "description": "Shows the values of various solution macros.",
+      "cwd": "",
+      "filename": "$(SolutionDir)bat\\logsolutionmacros.bat",
+      "arguments": "$(Configuration) \"$(FullConfiguration)\" $(SolutionDir) $(SolutionFullFileName) $(SolutionName) $(StartupProjectDir) $(StartupProjectFullFileName) $(StartupProjectName)"
+    },
+    {
+      "cmdname": "logprojectmacros",
+      "title": "Log Project Macros (ProjectDir and ProjectName)",
+      "description": "Shows the values of the various macros, including Project macros.",
+      "cwd": "",
+      "filename": "$(SolutionDir)bat\\logprojectmacros.bat",
+      "arguments": "$(Configuration) \"$(FullConfiguration)\" $(SolutionDir) $(SolutionFullFileName) $(SolutionName) $(ProjectDir) $(ProjectFullFileName) $(ProjectName)"
+    }
+  ]
+}

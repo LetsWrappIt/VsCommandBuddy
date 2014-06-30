@@ -15,7 +15,8 @@ Shortcut key definitions are optional. If no shortcut is defined, the command ca
 - a, b, c, .. z
 - 1, 2, 3, .. 0
 - F1, F2, F3 .. F24
-- Esc, home, PgDn, PgUp, End
+- Esc, Home, PageUp, PageDown, End, Left, Right, Up, Down, Tab
+  
 
 ## Valid modifier values
 - CTRL
