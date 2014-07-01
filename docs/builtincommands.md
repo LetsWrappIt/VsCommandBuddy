@@ -13,10 +13,10 @@ The help function will output the documentation into the output window you have 
 
 #### Built-in command: Generate vscb
 If you choose the command 'Tools - Generate vscb', VsCommandBuddy will generate an example solution vscb file and one 
-project vscb file for each project in the solution.
+project [vscb file](vscbfiles.md) for each project in the solution.
 If VsCommandBuddy finds an existing vscb configuration file, it will not overwrite that one.
 
-##### Built-in command: Refresh
+#### Built-in command: Refresh
 VsCommandBuddy reads the Visual Studio Solution file and the vscb config files. If you change
 anything that VsCommandBuddy should know about, make sure to inform VsCommandBuddy by invoking the
 Refresh command. 
