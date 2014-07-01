@@ -55,7 +55,7 @@ Json vscb file:
       "cwd": "",
       "async": true,
       "key1": "5",
-      "mod1": "CTRL SHIFT"
+      "mod1": "CTRL SHIFT",
       "key2": "",
       "mod2": ""
     }
