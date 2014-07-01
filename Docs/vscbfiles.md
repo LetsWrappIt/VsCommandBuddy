@@ -73,12 +73,12 @@ Json vscb file:
 `homepage_url`
 - Required: No
 - Default: `empty`
-- If you like you can specify an url pointing to addition info.
+- If you like you can specify an url pointing to additional info.
 
 `author`
 - Required: No
 - Default: `empty`
-- Collect some well deserved kudos!
+- Collect some kudos!
 
 `verbose`
 - Required: No
