@@ -113,21 +113,21 @@ Json vscb file:
 - Default: `empty`
 - The filename is the actual file that will be invoked. 
 - This field value may contain macros.
-- Example values: `notepad.exe` or `grunt`
+- Example: `notepad.exe` or `grunt`
 
 `arguments`
 - Required: No
 - Default: `empty`
 - The arguments value will be passed as arguments to the invoked command. 
 - This field value may contain macros.
-- Example values: `$(SolutionFullFileName).vscb.json $(Configuration)` 
+- Example: `$(SolutionFullFileName).vscb.json $(Configuration)` 
 
 `cwd`
 - Required: No
 - Default: `empty`
 - The cwd value will be used to preset the current working directory. 
 - This field value may contain macros.
-- Example values: `$(SolutionFullFileName)` 
+- Example: `$(SolutionFullFileName)` 
 
 `async`
 - Required: No
