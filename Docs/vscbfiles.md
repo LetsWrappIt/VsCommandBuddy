@@ -26,5 +26,27 @@ The fastest way however is to simply generate sample vscb files into your soluti
 VsCommandBuddy and loaded an existing Visual Studio Solution into Visual Studio.  Choose the build-in Generate vscb function which
 you'll find in the Tools menu.
 
+## Vscb format
 
-
+```json
+{
+  "commands": [
+    {
+      "cmdname": "logsolutionmacros",
+      "title": "Log Solution Macros",
+      "description": "Shows the values of various solution macros.",
+      "cwd": "",
+      "filename": "$(SolutionDir)bat\\logsolutionmacros.bat",
+      "arguments": "$(Configuration) \"$(FullConfiguration)\" $(SolutionDir) $(SolutionFullFileName) $(SolutionName) $(StartupProjectDir) $(StartupProjectFullFileName) $(StartupProjectName)"
+    },
+    {
+      "cmdname": "logprojectmacros",
+      "title": "Log Project Macros (ProjectDir and ProjectName)",
+      "description": "Shows the values of the various macros, including Project macros.",
+      "cwd": "",
+      "filename": "$(SolutionDir)bat\\logprojectmacros.bat",
+      "arguments": "$(Configuration) \"$(FullConfiguration)\" $(SolutionDir) $(SolutionFullFileName) $(SolutionName) $(ProjectDir) $(ProjectFullFileName) $(ProjectName)"
+    }
+  ]
+}
+```
