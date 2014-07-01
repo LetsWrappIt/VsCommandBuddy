@@ -59,7 +59,7 @@ Json vscb file:
 }
 ```
 
-### Main section fields
+#### Main section fields
 `vscb_version`
 - Required: Yes
 - Default: `empty`
@@ -91,7 +91,7 @@ Json vscb file:
 - Default: `empty`
 - Contains an array of command definitions.
 
-#### Command definition:
+#### Command definition fields
 
 `cmdname`
 - Required: Yes
