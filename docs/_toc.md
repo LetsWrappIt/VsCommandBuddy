@@ -1,6 +1,7 @@
 # VsCommandBuddy Documentation
  
 The following documentation is available:
+- [README.md](../README.md)
 - [Use Cases](usecases.md)
 - [Getting Started](gettingstarted.md)
 - [Built in commands](builtincommands.md)
