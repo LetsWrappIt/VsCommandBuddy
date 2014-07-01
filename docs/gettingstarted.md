@@ -3,14 +3,14 @@ Getting started involves installing the package and configure some external comm
 
 #### Step 1: Download and install VsCommandBuddy
 In the VisualStudioGallery you'll find VsCommandBuddy [here](http://visualstudiogallery.msdn.microsoft.com/f5da988e-2ec1-4061-a569-46d09733c668).
-Click download and install. 
+Click download and install.
 (In case you decide afterwards not to continue using VsCommandBuddy, you can simply uninstall VsCommandBuddy from your pc using Visual Studio 'Extensions and updates'.)
 
 Restart Visual Studio.
 
 Tip:
 * You should now see some VsCommandBuddy items in the Tools menu. 
-* Enable the VsCommandToolbar by right clicking on the toolbar area, and select the VsCommandBuddy toolbar.
+* Enable the VsCommandBuddy toolbar by right-clicking on the toolbar area, and select the VsCommandBuddy toolbar.
 * VsCommandBuddy communicates with the user mainly through the output window of Visual Studio. If you click something, make sure you look at the outputwindow to see the result!
 
 
