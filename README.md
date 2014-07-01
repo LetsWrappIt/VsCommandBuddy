@@ -1,4 +1,4 @@
-[Table of content](docs/_toc.md) [VsCommandBuddy in VisualStudio Gallery](http://visualstudiogallery.msdn.microsoft.com/f5da988e-2ec1-4061-a569-46d09733c668) 
+[Table of content](docs/_toc.md)  ---  [VsCommandBuddy in VisualStudio Gallery](http://visualstudiogallery.msdn.microsoft.com/f5da988e-2ec1-4061-a569-46d09733c668) 
 # VsCommandBuddy
 
 VsCommandBuddy allows you to dynamically add new commands to Visual Studio IDE using configuration files which are part 
