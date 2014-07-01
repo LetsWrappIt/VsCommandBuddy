@@ -37,7 +37,7 @@ Example:
 ```json
 {
 	"MyMacro" : "$(SolutionDir)",
-	"NextMacro" : $(MyMacro)
+	"NextMacro" : "$(MyMacro)"
 }
 
 ```
