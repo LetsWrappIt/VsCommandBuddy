@@ -8,10 +8,10 @@ Click download and install.
 
 Restart Visual Studio.
 
-Tips:
-* You should now see some VsCommandBuddy items in the menu Tools. 
-* A VsCommandBuddy toolbar is now available. Enable the toolbar by right clicking on the toolbar area, and select the VsCommandBuddy toolbar.
-* VsCommandBuddy communicates with the user mainly through the output window of Visual Studio. If you click something, make sure you look at the outputwindow to see the result!
+Tip:
+1 You should now see some VsCommandBuddy items in the Tools menu. 
+2 Enable the VsCommandToolbar by right clicking on the toolbar area, and select the VsCommandBuddy toolbar.
+3 VsCommandBuddy communicates with the user mainly through the output window of Visual Studio. If you click something, make sure you look at the outputwindow to see the result!
 
 
 #### Step 2: Open an existing Visual Studio solution
