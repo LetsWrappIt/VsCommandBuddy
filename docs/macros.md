@@ -50,6 +50,6 @@ Macros can be used:
   - arguments
   - cwd
 
-- in the macros section of the solution vscb file (as values).
+- in the macros section of the [solution vscb file](vscbfiles.md) (as values).
 
 The macros are demonstrated in the MacroDemo solution.
