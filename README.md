@@ -7,8 +7,8 @@ If you have multiple external commands per solution, then you'll recognize the '
 did I organize my tasks in this solution? How about opening a project you haven't touched for a couple of months??
 
 VsCommandBuddy solves this 'command-hell' in a very simple and elegant manner. All commands needed in the context of each solution are 
-simply presented in the form of menu-items and toolbar buttons. Open a solution, and you immediately see which commands are available within 
-that solution. Invoke them by pressing shortcutkeys or by clicking them.
+simply presented in the form of menu-items and toolbar buttons. Open a Visual Studio solution, and you immediately see which commands are available 
+within that solution. Invoke a command using a shortcutkey or by clicking the command menuitem/button.
 
 Visual Studio is an awesome IDE, packed with a huge amount of valuable features. Period!  But ... outside of Visual Studio, lives a huge amount 
 of other technologies and tools which you often wouldn't want to miss either. Choosing between one development stack or another is no solution. 
