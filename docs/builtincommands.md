@@ -1,5 +1,5 @@
-# VsCommandBuddy built-in commands
-VsCommandBuddy comes with a couple of built-in commands to further enahnce user convencience. You'll find these in the Tools menu.
+# Built-in commands
+VsCommandBuddy comes with a couple of built-in commands to further enhance user convencience. You'll find these in the Tools menu.
 
 #### Built-in command: Help
 The help command will give you some background info and point towards the generate command and furthermore to this 
