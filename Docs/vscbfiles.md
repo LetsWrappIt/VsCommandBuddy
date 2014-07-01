@@ -1,4 +1,4 @@
-# VsCommandBuddy Configuration files
+# Vscb files
 
 For brevity, the VsCommandBuddy configuration files are referred to as vscb files, vscb config files or more precise a solution 
 vscb file or a project vscb file. The vscb files live alongside the sln and various types of Visual Studio project files.
@@ -64,11 +64,52 @@ A vscb json file looks as follows:
 
 ### Main section fields
 `vscb_version`
-
-Current version of the vscb configuration scheme. Value: `1.0`
+- Status: Required
+- Default: empty.
+- Scope: solution and project vscb files
+- Current version of the vscb configuration scheme. Value: `1.0`
 
 `description`
+- Status: Optional
+- Default: empty.
+- Scope: solution and project vscb files
+- A description of the current configuration.
 
-A description of the current configuration
+`homepage_url`
+- Status: Optional
+- Default: empty.
+- Scope: solution and project vscb files
+- If you like you can specify an url pointing to addition info.
 
+`author`
+- Status: Optional
+- Default: empty.
+- Scope: solution and project vscb files
+- Collect some well deserved kudos!
+
+`verbose`
+- Status: Optional
+- Default: true
+- Scope: solution vscb files
+- It will make the logging in the output window more informative. Don't switch it off, until you feel at home with vscommandbuddy.
+
+`commands`
+- Status: Optional (but really needed to get some benefit from VsCommandBuddy).
+- Default: empty.
+- Scope: solution and project vscb files
+- Contains an array of command definitions.
+
+#### Command definition:
+      `cmdname`: "editvscbfile",
+      `title`: "NotePad (async) Edit solution vscb file",
+      `description`: "Open notepad to start editing the batch file.",
+      `filename`: "notepad.exe",
+      `arguments`: "$(SolutionFullFileName).vscb.json",
+      `cwd`
+      `async`
+      `key1`
+      `mod1`
+      `key2`
+      `mod2`
+    
 
