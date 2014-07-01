@@ -99,9 +99,11 @@ Json vscb file:
 	- Use the macro like this $(MyMacro).
 - Example:
 ```json
+{
  "macros" :{
 	"OutputDir" : "$(BaseDir)output\\",
 	"BaseDir" : "$(SolutionDir)"
+}
 }
 ```
 
