@@ -29,7 +29,7 @@ Json vscb file:
 ```json
 {
   "vscb_version": "1.0",
-  "description": "This is an example vscb solution config file.",
+  "description": "This is an example vscb config file.",
   "homepage_url": "https://github.com/PaulHuizer/VsCommandBuddy/",
   "author": "Paul Huizer",
   "verbose": true,
@@ -49,7 +49,7 @@ Json vscb file:
     {
       "cmdname": "editvscbfile",
       "title": "NotePad (async) Edit solution vscb file",
-      "description": "Open notepad to start editing the batch file.",
+      "description": "Open notepad to start editing the solution vscb file.",
       "filename": "notepad.exe",
       "arguments": "$(SolutionFullFileName).vscb.json",
       "cwd": "",
