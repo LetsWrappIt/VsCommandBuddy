@@ -138,5 +138,5 @@ Json vscb file:
 
 `key1`, `key2`, `mod1` and `mod2`
 - Required: No 
-- The key/mod fields are used to define shortcuts for the command. More info [here](shortcutkeys.md)
+- The key/mod fields are used to define shortcuts for the command. More info [here](shortcutkeys.md).
 
