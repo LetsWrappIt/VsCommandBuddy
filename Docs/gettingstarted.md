@@ -1,15 +1,15 @@
 # Getting started
-It's time to get you started. Gettings started involves installing the package and maybe inspect one or 2 example projects which are available in 
-this repository.
+Gettings started involves installing the package and configure one or two external commands.
 
 #### Step 1: Download and install VsCommandBuddy
 In the VisualStudioGallery you can find [VsCommandBuddy](http://visualstudiogallery.msdn.microsoft.com/f5da988e-2ec1-4061-a569-46d09733c668) here.
 Click download and install. 
 (In case you decide afterwards not to continue using VsCommandBuddy, you can simply uninstall VsCommandBuddy from your pc using Visual Studio 'Extensions and updates'.)
 
-Restart Visual Studio. 
+Restart Visual Studio.
 
-You're done installing. 
+You should now see some VsCommandBuddy items in the menu Tools. Also a VsCommandBuddy toolbar will be available. Make sure to enable the toolbar 
+by right clicking on the toolbar area, and select the VsCommandBuddy toolbar.
 
 
 #### Step 2: Configure commands
