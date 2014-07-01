@@ -65,7 +65,7 @@ Nice ...
 
 
 
-#### Working in teams
+### Working in teams
 As soon as you start working in teams, the above problems only grow. All team members need to share the knowledge of which command to use for what purpose.
 They also need to share same settings and so on.
 
