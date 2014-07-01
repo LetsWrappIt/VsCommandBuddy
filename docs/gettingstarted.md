@@ -1,3 +1,4 @@
+[Table of content](_toc.md)
 # Getting started
 Getting started involves installing the package and configure some external commands.
 

@@ -1,3 +1,4 @@
+[Table of content](_toc.md)
 # Shortcut keys
 
 Commands can be assigned shortcut key definitions. A shortcut can exist of one or two keys.

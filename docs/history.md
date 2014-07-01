@@ -1,3 +1,4 @@
+[Table of content](_toc.md)
 # History
 - 2014-07-01
 	* Bumbed version to VsCommandBuddy to v1.4

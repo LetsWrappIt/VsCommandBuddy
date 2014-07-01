@@ -1,3 +1,4 @@
+[Table of content](_toc.md)
 # Vscb files
 
 For brevity, the VsCommandBuddy configuration files are referred to as vscb files, vscb config files or more precise a solution 

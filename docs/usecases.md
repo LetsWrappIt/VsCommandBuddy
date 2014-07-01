@@ -1,3 +1,4 @@
+[Table of content](_toc.md)
 # Use-cases
 
 To give an idea on who could benefit from VsCommandBuddy, here some usecases:

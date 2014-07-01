@@ -1,3 +1,4 @@
+[Table of content](_toc.md)
 # Built-in commands
 VsCommandBuddy comes with a couple of built-in commands to further enhance user convencience. You'll find these in the Tools menu.
 

@@ -1,3 +1,4 @@
+[Table of content](_toc.md)
 # Macros
 
 VsCommandBuddy offers macro functionality in a more-or-less similar fashion as the well known macros from the External Tools section in Visual Studio.
