@@ -19,7 +19,7 @@ In case a project does not have a project file, which is the case with the proje
 'Website', then the project vscb file will be located in the root of the project folder, and
 the filename is: 'ProjectFolderName'.vscb.json
 
-### Vscb files format
+### Format
 The vscb configuration files are plain json. 
 
 The majority of the settings are equal for solutions and project vscb files. The documentation will make a note if this is not the case.
@@ -63,25 +63,21 @@ Json vscb file:
 `vscb_version`
 - Required: Yes
 - Default: `empty`
-- Scope: solution and project vscb files
 - Current version of the vscb configuration scheme. Value: `1.0`
 
 `description`
 - Required: No
 - Default: `empty`
-- Scope: solution and project vscb files
 - A description of the current configuration.
 
 `homepage_url`
 - Required: No
 - Default: `empty`
-- Scope: solution and project vscb files
 - If you like you can specify an url pointing to addition info.
 
 `author`
 - Required: No
 - Default: `empty`
-- Scope: solution and project vscb files
 - Collect some well deserved kudos!
 
 `verbose`
@@ -93,7 +89,6 @@ Json vscb file:
 `commands`
 - Required: No, but really needed to get some benefit from VsCommandBuddy.
 - Default: `empty`
-- Scope: solution and project vscb files
 - Contains an array of command definitions.
 
 #### Command definition:
