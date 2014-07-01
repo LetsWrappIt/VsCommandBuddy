@@ -3,7 +3,7 @@
 To give an idea on who could benefit from VsCommandBuddy, here some usecases:
 
 ### A single front-end developer
-Typical front-end developer needs include things like:
+A typical front-end developer needs to perform tasks such as:
 - compile SASS files to css
 - generating custom font files from svg icons
 - generating sprites from png files
@@ -43,10 +43,11 @@ Backend developers have their own types of 'tasks'. Image you're working on a AP
 - Generate ORM DAL dlls
 - Run testunits
 - Deploy api project to various environments (test or production environments)
-- Deploy background tasks as win-nt services
+- Deploy background tasks as win-nt services (stop service, update service and start service)
 - Bump versioning
+- Etc...
 
-Like frontenders, backenders are working on multiple projects. 
+Like frontenders, backenders are equally blessed to work on multiple projects. 
 
 #### The problem
 How to deal with all these commands? The configuration keys, the proper urls and so on?
