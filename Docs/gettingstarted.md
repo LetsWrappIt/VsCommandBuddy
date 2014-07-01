@@ -8,8 +8,11 @@ Click download and install.
 
 Restart Visual Studio.
 
-You should now see some VsCommandBuddy items in the menu Tools. Also a VsCommandBuddy toolbar will be available. Make sure to enable the toolbar 
-by right clicking on the toolbar area, and select the VsCommandBuddy toolbar.
+Tips:
+* You should now see some VsCommandBuddy items in the menu Tools. 
+* A VsCommandBuddy toolbar is now available. Enable the toolbar by right clicking on the toolbar area, and select the VsCommandBuddy toolbar.
+* VsCommandBuddy communicates with the user mainly through the output window of Visual Studio. If you click something, make sure you look at the outputwindow to see the result!
+
 
 #### Step 2: Open an existing Visual Studio solution
 Since VsCommandBuddy is about customizing commands per solution/project, a loaded solution is required. Make sure to open an existing Visual Studio solution from disk.
@@ -19,7 +22,7 @@ Now configure some external commands which you use with your projects.
 External commands are configured in so called [vscb files](vscbfiles.md), which are just plain json. VsCommandBuddy looks for one vscb file per solution file and optionally one per project in your solution.
 
 How to get your vscb files?
-- Click 'Generate vscb' from the tools menu in Visual Studio, en then look for vscb files alongside the solution file and the 
+- Click 'Generate vscb' from the tools menu in Visual Studio, then look for vscb files alongside the solution file and the 
 projectfiles. They will contain the proper file format and some pre-configured example commands.
 - Look at some of the Example solutions.
 - Simply get your editor and make some. Check ['vscb files'](vscbfiles.md) for more info.
@@ -34,4 +37,3 @@ In order to function, VsCommandBuddy requires:
 - (Optional) One VsCommandBuddy configuration file for that solution.
 - (Optional) A VsCommandBuddy configuration file for each project in the solution.
 
-TIP: VsCommandBuddy communicates with the user mainly through the output window of Visual Studio. If you click something, make sure you look at the outputwindow to see the result!
