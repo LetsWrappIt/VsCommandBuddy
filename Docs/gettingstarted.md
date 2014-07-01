@@ -13,13 +13,13 @@ by right clicking on the toolbar area, and select the VsCommandBuddy toolbar.
 
 
 #### Step 2: Configure commands
-To put VsCommandBuddy to work, your next step is to configure some external commands you use with your projects.
+Now configure some external commands which you use with your projects.
 External commands are configured in so called [vscb files](vscbfiles.md), which are just plain json. VsCommandBuddy looks for one vscb file per solution file and optionally one per project in your solution.
 
 How to get your vscb files?
-- Look at some of the Example solutions.
 - Click 'Generate vscb' from the tools menu in Visual Studio, en then look for vscb files alongside the solution file and the 
 projectfiles. They will contain the proper file format and some pre-configured example commands.
+- Look at some of the Example solutions.
 - Simply get your editor and make some. Check ['vscb files'](vscbfiles.md) for more info.
 
 
