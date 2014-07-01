@@ -20,12 +20,16 @@
     {
       "cmdname": "editvscbfile",
       "title": "NotePad (async) Edit solution vscb file",
-      "description": "Open notepad to start editing the batch file.",
+      "description": "Open notepad to start editing the solution vscb file.",
       "filename": "notepad.exe",
-      "arguments": "$(SolutionFullFileName).vscb.json",
+      "cwd": "$(SolutionDir)",
+      "arguments": "$(SolutionFileName).vscb.json",
       "async": true,
       "key1": "5",
-      "mod1": "CTRL SHIFT"
+      "mod1": "CTRL SHIFT",
+      "confirmMessage" :  "Are you sure you want to edit: \r\n$(SolutionFileName).vscb.json?",
+      "confirmCaption" :  "Edit solution vscb file",
+      "confirmIcon" :  "Question"
     },
     {
       "cmdname": "logmacrosuserdefined",

@@ -58,7 +58,10 @@ Json vscb file:
       "key1": "5",
       "mod1": "CTRL SHIFT",
       "key2": "",
-      "mod2": ""
+      "mod2": "",
+      "confirmMessage": "Are you sure you want to deploy $(Configuration)?",
+      "confirmCaption": "Are you sure?",
+      "confirmIcon": "Warning",
     }
   ]
 }
@@ -161,4 +164,21 @@ Json vscb file:
 `key1`, `key2`, `mod1` and `mod2`
 - Required: No 
 - The key/mod fields are used to define shortcuts for the command. More info [here](shortcutkeys.md).
+
+`confirmMessage`, `confirmCaption` and `confirmIcon`
+- Required: No 
+- The confirm fields enable you to define a confirmation dialog, that says: Are you sure you want to invoke this command? Yes / No. The idea is that you can prevent tasks from being invoked erroneously. In order to present a confirmation dialog, the `confirmMessage` must contain text. The other fields are optional.
+
+- `confirmCaption` text appears in the caption of the dialog. Default value: "Are you sure?"
+- `confirmMessage` text appears in the center of the messagebox dialog.
+- `confirmIcon` represents an icon. Default value: `Question`. Valid values are:
+  - `None`: The message box contain no symbols.
+  - `Error`: The message box contains a symbol consisting of white X in a circle with a red background.
+  - `Stop` : The message box contains a symbol consisting of white X in a circle with a red background.
+  - `Question`: The message box contains a symbol consisting of a question mark in a circle.
+  - `Exclamation`: The message box contains a symbol consisting of an exclamation point in a triangle with a yellow background.
+  - `Warning`: The message box contains a symbol consisting of an exclamation point in a triangle with a yellow background.
+  - `Information`: The message box contains a symbol consisting of a lowercase letter i in a circle.
+  - `Asterisk`: The message box contains a symbol consisting of a lowercase letter i in a circle.
+
 

@@ -1,63 +1,67 @@
 {
-  "cbconfig_version": "1.0",
-  "description": "This is an example vscb solution config file.",
-  "homepage_url": "https://github.com/PaulHuizer/VsCommandBuddy/",
-  "author": "Paul Huizer",
-  "verbose": true,
-  "commands": [
-    {
-      "cmdname": "cmdstart",
-      "title": "Cmdprompt using Start",
-      "description": "Open cmd prompt using os command start. Without args opens up new command window. This behaviour overrides the async flag.",
-      "cwd": "$(SolutionDir)",
-      "filename": "start",
-      "async": false
-    },
-    {
-      "cmdname": "cmdcall",
-      "title": "Cmdprompt using Call",
-      "description": "Open cmd prompt using os command call.",
-      "cwd": "$(SolutionDir)",
-      "filename": "call",
-      "async": true
-    },
-    {
-      "cmdname": "cmdbat",
-      "title": "Cmdprompt using bat",
-      "description": "Open cmd prompt using a batch file.",
-      "cwd": "$(SolutionDir)",
-      "filename": "$(SolutionDir)bat\\devcmd.bat",
-      "async": true
-    },
-    {
-      "cmdname": "notepadasync",
-      "title": "NotePad (async)",
-      "description": "Open notepad to start editing the batch file.",
-      "filename": "notepad.exe",
-      "arguments": "$(SolutionDir)bat\\devcmd.bat",
-      "async": true,
-      "key1": "5",
-      "mod1": "CTRL SHIFT"
-    },
-    {
-      "cmdname": "grunttask",
-      "title": "Grunt: Run default task",
-      "description": "Start grunt without task but with grunt option, here we use the build configuration.",
-      "cwd": "$(SolutionDir)",
-      "filename": "grunt",
-      "arguments": "--gruntfile=gruntfile.js --verbose --configuration=$(Configuration)",
-      "async": true,
-      "key1": "b",
-      "mod1": "ALT SHIFT"
-    },
-    {
-      "cmdname": "gruntmakecss",
-      "title": "Grunt: Run makecss task",
-      "description": "Start grunt to run makecss task.",
-      "cwd": "$(SolutionDir)",
-      "filename": "grunt",
-      "arguments": "--gruntfile=gruntfile.js makecss",
-      "async": false
-    }
-  ]
+    "cbconfig_version": "1.0",
+    "description": "This is an example vscb solution config file.",
+    "homepage_url": "https://github.com/PaulHuizer/VsCommandBuddy/",
+    "author": "Paul Huizer",
+    "verbose": true,
+    "commands": [
+        {
+            "cmdname": "cmdstart",
+            "title": "Cmdprompt using Start",
+            "description": "Open cmd prompt using os command start. Without args opens up new command window. This behaviour overrides the async flag.",
+            "cwd": "$(SolutionDir)",
+            "filename": "start",
+            "async": false
+        },
+        {
+            "cmdname": "cmdcall",
+            "title": "Cmdprompt using Call",
+            "description": "Open cmd prompt using os command call.",
+            "cwd": "$(SolutionDir)",
+            "filename": "call",
+            "async": true
+        },
+        {
+            "cmdname": "cmdbat",
+            "title": "Cmdprompt using bat",
+            "description": "Open cmd prompt using a batch file.",
+            "cwd": "$(SolutionDir)",
+            "filename": "$(SolutionDir)bat\\devcmd.bat",
+            "async": true
+        },
+        {
+            "cmdname": "editsolutionvscb",
+            "title": "Edit the solution vscb file",
+            "description": "Open notepad to start editing the solution vscb file.",
+            "filename": "notepad.exe",
+            "cwd": "$(SolutionDir)",
+            "arguments": "$(SolutionFileName).vscb.json",
+            "async": true,
+            "key1": "5",
+            "mod1": "CTRL SHIFT",
+            "confirmMessage": "Are you sure you want to edit: \r\n$(SolutionFileName).vscb.json?",
+            "confirmCaption": "Edit solution vscb using notepad!",
+            "confirmIcon" : "Warning"
+        },
+        {
+            "cmdname": "grunttask",
+            "title": "Grunt: Run default task",
+            "description": "Start grunt without task but with grunt option, here we use the build configuration.",
+            "cwd": "$(SolutionDir)",
+            "filename": "grunt",
+            "arguments": "--gruntfile=gruntfile.js --verbose --configuration=$(Configuration)",
+            "async": true,
+            "key1": "b",
+            "mod1": "ALT SHIFT"
+        },
+        {
+            "cmdname": "gruntmakecss",
+            "title": "Grunt: Run makecss task",
+            "description": "Start grunt to run makecss task.",
+            "cwd": "$(SolutionDir)",
+            "filename": "grunt",
+            "arguments": "--gruntfile=gruntfile.js makecss",
+            "async": false
+        }
+    ]
 }

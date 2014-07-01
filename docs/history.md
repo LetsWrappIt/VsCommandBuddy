@@ -1,10 +1,18 @@
 [Table of content](_toc.md)
 # History
 - 2014-07-01
+	* Bumbed version to VsCommandBuddy to v1.5
+    * Added support for confirmation dialogs before invoking a command.
+    * Added macros: SolutionFileName, StartupProjectFileName, ProojectFileName.
+    * Update [vscb files](vscbfiles.md) doc
+    * Update [macros](macros.md) doc
+    * Update macro demo sample solution doc with new macros and confirmation dialog.
+    * Update simple website sample solution doc with new macros and confirmation dialog.
+
+- 2014-07-01
 	* Bumbed version to VsCommandBuddy to v1.4
     * Added support for custom-defined macros
     * Update [macros](macros.md) doc
-
 
 - 2014-07-01
     * Improved documentation: usecases

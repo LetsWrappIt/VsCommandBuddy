@@ -13,12 +13,16 @@ Using macros, it is possible to customize the invokation of commands, depending 
 	- Example value:  'c:\\projects\'myproject\\' 
 - $(SolutionFullFileName)
 	- Example value:  'c:\\projects\'myproject\\mysolution.sln' 
+- $(SolutionFileName)
+	- Example value:  'mysolution.sln' 
 - $(SolutionName)
 	- Example value:  'mysolution' 
 - $(StartupProjectDir)
 	- Example value:  'c:\\projects\'myproject\\helloworld\\' 
 - $(StartupProjectFullFileName)
 	- Example value:  'c:\\projects\'myproject\\helloworld\\helloworld.csproj' 
+- $(StartupProjectFileName)
+	- Example value:  'helloworld.csproj' 
 - $(StartupProjectName)
 	- Example value:  'helloworld' 
 
@@ -27,6 +31,8 @@ Using macros, it is possible to customize the invokation of commands, depending 
 	- Example value:  'c:\\projects\'myproject\\helloworld\\' 
 - $(ProjectFullFileName)
 	- Example value:  'c:\\projects\'myproject\\helloworld\\helloworld.csproj' 
+- $(ProjectFileName)
+	- Example value:  'helloworld.csproj' 
 - $(ProjectName)
 	- Example value:  'helloworld' 
 
@@ -50,6 +56,7 @@ Macros can be used:
   - filename
   - arguments
   - cwd
+  - confirmMessage
 
 - in the macros section of the [solution vscb file](vscbfiles.md) (as values).
 
