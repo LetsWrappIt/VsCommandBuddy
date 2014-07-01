@@ -100,10 +100,10 @@ Json vscb file:
 - Example:
 ```json
 {
- "macros" :{
-	"OutputDir" : "$(BaseDir)output\\",
-	"BaseDir" : "$(SolutionDir)"
-}
+	"macros" :{
+		"OutputDir" : "$(BaseDir)output\\",
+		"BaseDir" : "$(SolutionDir)"
+	}
 }
 ```
 
