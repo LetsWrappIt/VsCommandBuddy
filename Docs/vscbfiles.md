@@ -61,37 +61,37 @@ Json vscb file:
 
 ### Main section fields
 `vscb_version`
-- Status: Required
+- Required: Yes
 - Default: `empty`
 - Scope: solution and project vscb files
 - Current version of the vscb configuration scheme. Value: `1.0`
 
 `description`
-- Status: Optional
+- Required: No
 - Default: `empty`
 - Scope: solution and project vscb files
 - A description of the current configuration.
 
 `homepage_url`
-- Status: Optional
+- Required: No
 - Default: `empty`
 - Scope: solution and project vscb files
 - If you like you can specify an url pointing to addition info.
 
 `author`
-- Status: Optional
+- Required: No
 - Default: `empty`
 - Scope: solution and project vscb files
 - Collect some well deserved kudos!
 
 `verbose`
-- Status: Optional
+- Required: No
 - Default: `true`
 - Scope: Solution vscb file only
 - It will make the logging in the output window more informative. Don't switch it off, until you feel at home with vscommandbuddy.
 
 `commands`
-- Status: Optional (but really needed to get some benefit from VsCommandBuddy).
+- Required: No, but really needed to get some benefit from VsCommandBuddy.
 - Default: `empty`
 - Scope: solution and project vscb files
 - Contains an array of command definitions.
@@ -99,51 +99,49 @@ Json vscb file:
 #### Command definition:
 
 `cmdname`
-- Status: Required
+- Required: Yes
 - Default: `empty`
 - Each command requires a unique name. Project cmdname's are automatically prefixed with a unique project reference. If a non unique cmdname is encountered, it gets ignored.
 
 `title`
-- Status: Required
+- Required: Yes
 - Default: `empty`
 - The title value is used as the menu caption or as the tooltip in the toolbar for example.
 
 `description`
-- Status: Optional
+- Required: No
 - Default: `empty`
 - The description value is used to document what is done using this command.
 
 `filename`
-- Status: Required
+- Required: Yes
 - Default: `empty`
 - The filename is the actual file that will be invoked. 
 - This field value may contain macros.
 - Example values: `notepad.exe` or `grunt`
 
 `arguments`
-- Status: Optional
+- Required: No
 - Default: `empty`
 - The arguments value will be passed as arguments to the invoked command. 
 - This field value may contain macros.
 - Example values: `$(SolutionFullFileName).vscb.json $(Configuration)` 
 
 `cwd`
-- Status: Optional
+- Required: No
 - Default: `empty`
 - The cwd value will be used to preset the current working directory. 
 - This field value may contain macros.
 - Example values: `$(SolutionFullFileName)` 
 
 `async`
-- Status: Optional
+- Required: No
 - Default: `false`
 - Using async switch you can specify whether the command should run in the background ('false') or in the foreground (`true`).
   - The output of background commands is redirected to the outputwindow.
   - Foreground processes will run next to visual studio and other applications running.
 
-
-`key1` and `key2`
-
-`mod1` and `mod2`
-    
+`key1`, `key2`, `mod1` and `mod2`
+- Required: No 
+- The key/mod fields are used to define shortcuts for the command. More info [here](shortcutkeys.md)
 
