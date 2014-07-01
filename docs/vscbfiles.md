@@ -33,6 +33,10 @@ Json vscb file:
   "homepage_url": "https://github.com/PaulHuizer/VsCommandBuddy/",
   "author": "Paul Huizer",
   "verbose": true,
+  "macros": {
+		"OutputDir" : "$(BaseDir)output\\",
+		"BaseDir"   : "$(SolutionDir)"
+	},
   "commands": [
     {
       "cmdname": "cmdcall",
@@ -85,6 +89,21 @@ Json vscb file:
 - Default: `true`
 - Scope: Solution vscb file only
 - It will make the logging in the output window more informative. Don't switch it off, until you feel at home with vscommandbuddy.
+
+`commands`
+- Required: No
+- Default: `empty`
+- Scope: Solution vscb file only
+- Here you can specify your own macors. Its an json object, with macroname and value pairs. 
+	- Specify the name like this MyMacro.
+	- Use the macro like this $(MyMacro).
+- Example:
+```json
+ "macros" :{
+	"OutputDir" : "$(BaseDir)output\\",
+	"BaseDir" : "$(SolutionDir)"
+}
+```
 
 `commands`
 - Required: No, but really needed to get some benefit from VsCommandBuddy.

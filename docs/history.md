@@ -1,5 +1,9 @@
 # History
-- 2014-07-1
+- 2014-07-01
+	* Bumbed version to VsCommandBuddy to v1.4
+    * Added support for custom-defined macros in the solution vscb
+
+- 2014-07-01
     * Improved documentation: usecases
     * Improved documentation: vscbfiles
     * Improved documentation: gettingstarted

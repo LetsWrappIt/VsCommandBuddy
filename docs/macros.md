@@ -3,23 +3,47 @@
 VsCommandBuddy offers macro functionality in a more-or-less similar fashion as the well known macros from the External Tools section in Visual Studio.
 Using macros, it is possible to customize the invokation of commands, depending on the solution/project settings.
 
-## Supported macros
-Per solution
+#### Solution macros
 - $(Configuration)
+	- Example value:  'Debug' or 'Release'
 - $(FullConfiguration)
+	- Example value:  'Debug | Any CPU' 
 - $(SolutionDir)
+	- Example value:  'c:\\projects\'myproject\\' 
 - $(SolutionFullFileName)
+	- Example value:  'c:\\projects\'myproject\\mysolution.sln' 
 - $(SolutionName)
+	- Example value:  'mysolution' 
 - $(StartupProjectDir)
+	- Example value:  'c:\\projects\'myproject\\helloworld\\' 
 - $(StartupProjectFullFileName)
+	- Example value:  'c:\\projects\'myproject\\helloworld\\helloworld.csproj' 
 - $(StartupProjectName)
+	- Example value:  'helloworld' 
 
-Additional for commands defined in projects:
+#### Project macros (use with commands in vscb project)
 - $(ProjectDir)
+	- Example value:  'c:\\projects\'myproject\\helloworld\\' 
 - $(ProjectFullFileName)
+	- Example value:  'c:\\projects\'myproject\\helloworld\\helloworld.csproj' 
 - $(ProjectName)
+	- Example value:  'helloworld' 
 
-## Where are macros applicable?
+#### User defined macros
+In the solution vscb file it is possible to define your own macros. Each macro has a macro name and a macro value. Make sure you choose unique macronames.
+Applying a user defined macro is done exactly like other macros using the $('MacroName') syntax.
+
+Example:
+```json
+{
+	"MyMacro" : "$(SolutionDir)",
+	"NextMacro" : $(MyMacro)
+}
+
+```
+
+
+### Where are macros applicable?
 Macros are applicable on the following fields in each command section:
 - filename
 - arguments
