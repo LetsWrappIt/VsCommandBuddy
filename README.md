@@ -1,7 +1,9 @@
+Download: [VsCommandBuddy in VisualStudio Gallery](http://visualstudiogallery.msdn.microsoft.com/f5da988e-2ec1-4061-a569-46d09733c668) 
 # VsCommandBuddy
 
 VsCommandBuddy allows you to dynamically add new commands to Visual Studio IDE using configuration files which are part 
 of your solution and/or projects. This means that your custom commands will stay with your work.
+
 
 If you have multiple external commands per solution, then you'll recognize the 'problem' of switching between projects. How 
 did I organize my tasks in this solution? How about opening a project you haven't touched for a couple of months??
