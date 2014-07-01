@@ -36,17 +36,20 @@ Applying a user defined macro is done exactly like other macros using the $('Mac
 Example:
 ```json
 {
-	"MyMacro" : "$(SolutionDir)",
-	"NextMacro" : "$(MyMacro)"
+	"SomeMacro" : "$(NextMacro)output\\"
+	"NextMacro" : "$(SolutionDir)",
 }
 
 ```
 
 
 ### Where are macros applicable?
-Macros are applicable on the following fields in each command section:
-- filename
-- arguments
-- cwd
+Macros can be used:
+- in the following fields in each command section:
+  - filename
+  - arguments
+  - cwd
+
+- in the macros section of the solution vscb file (as values).
 
 The macros are demonstrated in the MacroDemo solution.
