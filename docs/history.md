@@ -46,6 +46,6 @@
 
 
 Links:
-- Get latest VsCommandBuddy here: [Download VsCommandBuddy](http://visualstudiogallery.msdn.microsoft.com/f5da988e-2ec1-4061-a569-46d09733c668)
+- Get VsCommandBuddy: [Visual Studio Gallery VsCommandBuddy](http://visualstudiogallery.msdn.microsoft.com/f5da988e-2ec1-4061-a569-46d09733c668)
 - [More documentation](../README.md)
 
