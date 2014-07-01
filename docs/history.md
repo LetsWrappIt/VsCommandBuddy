@@ -1,7 +1,9 @@
 # History
 - 2014-07-01
 	* Bumbed version to VsCommandBuddy to v1.4
-    * Added support for custom-defined macros in the solution vscb
+    * Added support for custom-defined macros
+    * Update [macros](macros.md) doc
+
 
 - 2014-07-01
     * Improved documentation: usecases
@@ -9,10 +11,10 @@
     * Improved documentation: gettingstarted
     * Improved documentation: macros
     * Improved documentation: builtincommands
-    * Added TableOfContents
-    * Improves README.md
+    * Added [TableOfContents](_toc.md)
+    * Improved README.md
     * Improved macro demo solution
-    * In the VisualStudio Gallery intro text: Added links to this docus.
+    * In the VisualStudio Gallery intro text: Added links to this docs.
 	
 - 2014-06-31
 	* Bumbed version to VsCommandBuddy to v1.3
