@@ -4,6 +4,10 @@
   "homepage_url": "https://github.com/PaulHuizer/VsCommandBuddy/",
   "author": "Paul Huizer",
   "verbose": true,
+  "macros": {
+      "OutputDir" :  "$(BaseDir)$(Configuration)\\",
+      "BaseDir" :  "$(SolutionDir)"
+  },
   "commands": [
     {
       "cmdname": "cmdcall",
@@ -22,6 +26,14 @@
       "async": true,
       "key1": "5",
       "mod1": "CTRL SHIFT"
+    },
+    {
+      "cmdname": "logmacrosuserdefined",
+      "title": "Log Macros (UserDefinedMacros)",
+      "description": "Shows the values of the UserDefined macros.",
+      "cwd": "",
+      "filename": "$(SolutionDir)bat\\logargs.bat",
+      "arguments": "$(BaseDir) $(OutputDir)"
     }
   ]
 }
