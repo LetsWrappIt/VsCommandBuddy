@@ -1,0 +1,27 @@
+{
+  "cbconfig_version": "1.0",
+  "description": "This is an example vscb solution config file.",
+  "homepage_url": "https://github.com/PaulHuizer/VsCommandBuddy/",
+  "author": "Paul Huizer",
+  "verbose": true,
+  "commands": [
+    {
+      "cmdname": "cmdcall",
+      "title": "Cmdprompt using Call",
+      "description": "Open cmd prompt using os command 'call'.",
+      "cwd": "$(SolutionDir)",
+      "filename": "call",
+      "async": true
+    },
+    {
+      "cmdname": "editvscbfile",
+      "title": "NotePad (async) Edit solution vscb file",
+      "description": "Open notepad to start editing the batch file.",
+      "filename": "notepad.exe",
+      "arguments": "$(SolutionFullFileName).vscb.json",
+      "async": true,
+      "key1": "5",
+      "mod1": "CTRL SHIFT"
+    }
+  ]
+}

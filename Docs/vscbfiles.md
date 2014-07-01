@@ -27,26 +27,48 @@ VsCommandBuddy and loaded an existing Visual Studio Solution into Visual Studio.
 you'll find in the Tools menu.
 
 ## Vscb format
+A vscb json file looks as follows:
 
 ```json
 {
+  "vscb_version": "1.0",
+  "description": "This is an example vscb solution config file.",
+  "homepage_url": "https://github.com/PaulHuizer/VsCommandBuddy/",
+  "author": "Paul Huizer",
+  "verbose": true,
   "commands": [
     {
-      "cmdname": "logsolutionmacros",
-      "title": "Log Solution Macros",
-      "description": "Shows the values of various solution macros.",
-      "cwd": "",
-      "filename": "$(SolutionDir)bat\\logsolutionmacros.bat",
-      "arguments": "$(Configuration) \"$(FullConfiguration)\" $(SolutionDir) $(SolutionFullFileName) $(SolutionName) $(StartupProjectDir) $(StartupProjectFullFileName) $(StartupProjectName)"
+      "cmdname": "cmdcall",
+      "title": "Cmdprompt using Call",
+      "description": "Open cmd prompt using os command 'call'.",
+      "cwd": "$(SolutionDir)",
+      "filename": "call",
+      "async": true
     },
     {
-      "cmdname": "logprojectmacros",
-      "title": "Log Project Macros (ProjectDir and ProjectName)",
-      "description": "Shows the values of the various macros, including Project macros.",
+      "cmdname": "editvscbfile",
+      "title": "NotePad (async) Edit solution vscb file",
+      "description": "Open notepad to start editing the batch file.",
+      "filename": "notepad.exe",
+      "arguments": "$(SolutionFullFileName).vscb.json",
       "cwd": "",
-      "filename": "$(SolutionDir)bat\\logprojectmacros.bat",
-      "arguments": "$(Configuration) \"$(FullConfiguration)\" $(SolutionDir) $(SolutionFullFileName) $(SolutionName) $(ProjectDir) $(ProjectFullFileName) $(ProjectName)"
+      "async": true,
+      "key1": "5",
+      "mod1": "CTRL SHIFT"
+      "key2": "",
+      "mod2": ""
     }
   ]
 }
 ```
+
+### Main section fields
+`vscb_version`
+
+Current version of the vscb configuration scheme. Value: `1.0`
+
+`description`
+
+A description of the current configuration
+
+
