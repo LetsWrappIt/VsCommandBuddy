@@ -1,4 +1,4 @@
-# VsCommandBuddy Documentation
+# Documentation
  
 The following documentation is available:
 - [README.md](../README.md)
