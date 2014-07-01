@@ -36,8 +36,8 @@ Applying a user defined macro is done exactly like other macros using the $('Mac
 Example:
 ```json
 {
-	"SomeMacro" : "$(NextMacro)output\\"
-	"NextMacro" : "$(SolutionDir)",
+	"SomeMacro" : "$(NextMacro)output\\",
+	"NextMacro" : "$(SolutionDir)"
 }
 
 ```
