@@ -7,28 +7,30 @@ Installing requires very little effort, just do the following:
 ## Download from Visual Studio Gallery
 In the VisualStudioGallery you can find [VsCommandBuddy](http://visualstudiogallery.msdn.microsoft.com/f5da988e-2ec1-4061-a569-46d09733c668) here.
 Click download and install. 
-In case you decide afterwords not to continue using VsCommandBuddy, you can simply uninstall VsCommandBuddy from your pc using Visual Studio. 
-(Tools -> Extensions and updates -> Select VsCommandBuddy and choose uninstall). 
+In case you decide afterwards not to continue using VsCommandBuddy, you can simply uninstall VsCommandBuddy from your pc using Visual Studio 'Extensions and updates'.
 
-Restart or startup Visual Studio. 
+Restart Visual Studio. 
 
 You're done installing. 
 
 
 ## What's next?
-To put it to proper use, you'd need to configure some external commands you frequently use inside your projects.
+To put VsCommandBuddy to work, your next step is to configure some external commands you use with your projects.
+External commands are configured in so called [vscb files](vscbfiles.md), which are just plain json. VsCommandBuddy looks for one vscb file per solution file and optionally one per project in your solution.
 
-One way of finding out how to do that is by looking at some of the Example solutions.
-Another route you can take, is to Click Generate vscb from the tools menu in Visual Studio, en then look for vscb files alongside the solution file and the 
-projectfiles. They will contain all kinds of example commands and its configeurations.
-
-One additional tip: Do browse the various documentation files in the repo\docs, they are all very short but rather informative.
-
+How to get your vscb files?
+- Look at some of the Example solutions.
+- Click 'Generate vscb' from the tools menu in Visual Studio, en then look for vscb files alongside the solution file and the 
+projectfiles. They will contain the proper file format and some pre-configured example commands.
+- Simply get your editor and make some. Check ['vscb files'](vscbfiles.md) for more info.
 
 ## Requirements and configuration
 In order to function, VsCommandBuddy requires:
 - DotNet Framework 4.5
 - Visual Studio 2013 Pro and more.
 - Installed VsCommandBuddy extension
+- An existing Visual Studio Solution file (.sln), since VsCommandBuddy reads this sln file for configuration purposes.
 - (Optional) One VsCommandBuddy configuration file for that solution.
 - (Optional) A VsCommandBuddy configuration file for each project in the solution.
+
+TIP: VsCommandBuddy communicates with the user mainly through the output window of Visual Studio. If you click something, make sure you look at the outputwindow to see the result!
