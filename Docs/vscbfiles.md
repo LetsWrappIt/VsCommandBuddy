@@ -6,21 +6,18 @@ vscb file or a project vscb file. The vscb files live alongside the sln and vari
 #### Solution vscb file filename and location
 Solution vscb file, one per Visual Studio solution.
 - Location: same folder as the VS Solution file.
-- FileName: <solutionfilename>.vscb.json
+- FileName: 'SolutionFileName'.vscb.json
 Example: MyHelloWorldSolution.sln.vscb.json
 
 #### Project vscb file filename and location
 Project vscb file, one per project
 - Location: same folder as the VS Project file such as vbproj or csproj
-- Filename: <ProjectFileName>.vscb.json
+- Filename: 'ProjectFileName'.vscb.json
 Example: MyHelloWorld.csproj.vscb.json
 
 In case a project does not have a project file, which is the case with the projecttype
 'Website', then the project vscb file will be located in the root of the project folder, and
-the filename is: <ProjectFolderName>.vscb.json
-
-This naming scheme allows for one config file per solution, and optionally one per project. Also in case you have more than one project
-or solution file in one folder.
+the filename is: 'ProjectFolderName'.vscb.json
 
 ### Vscb files format
 The vscb configuration files are plain json. The structure is quite self-explanatory when you
