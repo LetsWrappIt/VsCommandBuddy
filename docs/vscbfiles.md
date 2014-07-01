@@ -90,7 +90,7 @@ Json vscb file:
 - Scope: Solution vscb file only
 - It will make the logging in the output window more informative. Don't switch it off, until you feel at home with vscommandbuddy.
 
-`commands`
+`macros`
 - Required: No
 - Default: `empty`
 - Scope: Solution vscb file only
