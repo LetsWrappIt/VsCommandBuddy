@@ -2,7 +2,7 @@
 It's time to get you started. Gettings started involves installing the package and maybe inspect one or 2 example projects which are available in 
 this repository.
 
-Step 1: Download and install VsCommandBuddy
+#### Step 1: Download and install VsCommandBuddy
 In the VisualStudioGallery you can find [VsCommandBuddy](http://visualstudiogallery.msdn.microsoft.com/f5da988e-2ec1-4061-a569-46d09733c668) here.
 Click download and install. 
 (In case you decide afterwards not to continue using VsCommandBuddy, you can simply uninstall VsCommandBuddy from your pc using Visual Studio 'Extensions and updates'.)
@@ -12,7 +12,7 @@ Restart Visual Studio.
 You're done installing. 
 
 
-Step 2: Configure commands
+#### Step 2: Configure commands
 To put VsCommandBuddy to work, your next step is to configure some external commands you use with your projects.
 External commands are configured in so called [vscb files](vscbfiles.md), which are just plain json. VsCommandBuddy looks for one vscb file per solution file and optionally one per project in your solution.
 
