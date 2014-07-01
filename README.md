@@ -21,7 +21,7 @@ Happy Coding!!
 Paul
 
 
-## Notes
+### Notes
 - Documentation can be found [here](docs/_toc.md).
 - Who should use VsCommandBuddy? Checkout some [usecases](docs/usecases.md).
 - Feedback!! Did you give VsCommandBuddy a try? Please share your experience. Good or bad. Your feedback will help make VsCommandBuddy more useful!!
