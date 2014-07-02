@@ -44,26 +44,28 @@ The `cwd` field on the command definition is an example where this is the case. 
 `"cwd" : "$(BaseDir)..\\output\\"`
 
 Resolves to:
-```json
-"cwd" : "c:\\projects\webprojects\\output\\"
-```
+`"cwd" : "c:\\projects\webprojects\\output\\"`
 
 #### User defined macros with names ending with Dir
 Another place where we can apply the PathFix is in the [user defined macros](macros.md) with names ending in Dir (casesensitive!).
 Expanding on the first example:
 
 ```json
+{
 "OutputDir" : "$(BaseDir)..\\output\\",
 "OutputDir2" : "$(BaseDir)..\\output\\",
 "BaseDir" : "$(SolutionDir)"
+}
 ```
 
 Resolves to:
 
 ```json
+{
 "OutputDir" : "c:\\projects\webprojects\\output\\",
 "OutputDir2" : "c:\\projects\webprojects\\myhelloworldsolution\\..\\output\\",
 "BaseDir" : "c:\\projects\webprojects\\myhelloworldsolution\\"
+}
 ```
 
 The macro OutputDir2 does not end in Dir, so PathFixing is not applied.
@@ -80,9 +82,7 @@ it resolves to:
 
 One solution is to use a user defined macro:
 
-```json
-"BaseDir" : "$(SolutionDir)..\\Dist"
-```
+`"BaseDir" : "$(SolutionDir)..\\Dist"`
 
 And the the following `arguments` value:
 `grunt --verbose --no-color --base=$(BaseDir)`
