@@ -39,14 +39,15 @@ WITH the PathFix solution, it resolves to:
 The pathfix solution can only be applied in situations where we it is safe to assume the value is actually a name of a Directory.
 
 #### The `cwd` field
-The `cwd` field on the command definition is an example where this is the case. PathFixing is applied here.
+The `cwd` field in the command definition is an example where the value can be assumed to be a path of a directory. PathFixing is applied here.
 
 `"cwd" : "$(BaseDir)..\\output\\"`
 
 Resolves to:
+
 `"cwd" : "c:\\projects\webprojects\\output\\"`
 
-#### User defined macros with names ending with Dir
+#### User defined macros with macronames ending with Dir
 Another place where we can apply the PathFix is in the [user defined macros](macros.md) with names ending in Dir (casesensitive!).
 Expanding on the first example:
 
@@ -75,9 +76,11 @@ Sometimes PathFixing is required in other places as well, such as the `arguments
 This can be solved using a user defined macro.
 
 If the `arguments` string looks like:
+
 `grunt --verbose --no-color --base=$(SolutionDir)..\\Dist\\`
 
 it resolves to:
+
 `grunt --verbose --no-color --base=c:\\projects\webprojects\\myhelloworldsolution\\..\\Dist\\`
 
 One solution is to use a user defined macro:
@@ -85,9 +88,11 @@ One solution is to use a user defined macro:
 `"BaseDir" : "$(SolutionDir)..\\Dist"`
 
 And the the following `arguments` value:
+
 `grunt --verbose --no-color --base=$(BaseDir)`
 
 This resolves to:
+
 `grunt --verbose --no-color --base=c:\\projects\webprojects\\Dist\\`
 
 
