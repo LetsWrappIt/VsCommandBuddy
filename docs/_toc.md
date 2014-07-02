@@ -1,3 +1,4 @@
+[VsCommandBuddy in VisualStudio Gallery](http://visualstudiogallery.msdn.microsoft.com/f5da988e-2ec1-4061-a569-46d09733c668) 
 # Documentation
  
 The following documentation is available:

@@ -1,4 +1,4 @@
-[Table of content](_toc.md)
+[Table of content](_toc.md) --- [VsCommandBuddy in VisualStudio Gallery](http://visualstudiogallery.msdn.microsoft.com/f5da988e-2ec1-4061-a569-46d09733c668) 
 # Shortcut keys
 
 Commands can be assigned shortcut key definitions. A shortcut can exist of one or two keys.
