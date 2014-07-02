@@ -10,22 +10,28 @@ Hence, $(SolutionDir) resolves to: "c:\\projects\webprojects\\myhelloworldsoluti
 Furthermore, we have the following two macros defined in the solution vscb file:
 
 ```json
+{
 "OutputDir" : "$(BaseDir)..\\output\\",
 "BaseDir" : "$(SolutionDir)"
+}
 ```
 
 The above definition of 2 macros is valid, but WITHOUT the PathFix solution, their values would resolve to:
 
 ```json
+{
 "OutputDir" : "c:\\projects\webprojects\\myhelloworldsolution\\..\\output\\",
 "BaseDir" : "c:\\projects\webprojects\\myhelloworldsolution\\"
+}
 ```
 
 WITH the PathFix solution, it resolves to:
 
 ```json
+{
 "OutputDir" : "c:\\projects\webprojects\\output\\",
 "BaseDir" : "c:\\projects\webprojects\\myhelloworldsolution\\"
+}
 ```
 
 
@@ -35,9 +41,8 @@ The pathfix solution can only be applied in situations where we it is safe to as
 #### The `cwd` field
 The `cwd` field on the command definition is an example where this is the case. PathFixing is applied here.
 
-```json
-"cwd" : "$(BaseDir)..\\output\\"
-```
+`"cwd" : "$(BaseDir)..\\output\\"`
+
 Resolves to:
 ```json
 "cwd" : "c:\\projects\webprojects\\output\\"
