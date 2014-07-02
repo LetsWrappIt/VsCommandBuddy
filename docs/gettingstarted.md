@@ -28,10 +28,10 @@ Now configure some external commands which you use with your projects.
 External commands are configured in so called [vscb files](vscbfiles.md), which are just plain json. VsCommandBuddy looks for one vscb file per solution file and optionally one per project in your solution.
 
 How to get your vscb files? You have the following options:
-1. Click 'Generate vscb' from the tools menu in Visual Studio and click 'continue'. Then look for vscb files alongside the solution file and the 
+- Click 'Generate vscb' from the tools menu in Visual Studio and click 'continue'. Then look for vscb files alongside the solution file and the 
 projectfiles you selected. The generated vscb files contain the proper file format and some pre-configured example commands.
-2. Look at some of the Example solutions.
-3. Simply get your editor and make some. Check ['vscb files'](vscbfiles.md) for more info.
+- Look at some of the Example solutions.
+- Simply get your editor and make some. Check ['vscb files'](vscbfiles.md) for more info.
 
 
 ## Requirements and configuration
