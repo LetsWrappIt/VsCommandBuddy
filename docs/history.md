@@ -1,6 +1,10 @@
 [Table of content](_toc.md) --- [VsCommandBuddy in VisualStudio Gallery](http://visualstudiogallery.msdn.microsoft.com/f5da988e-2ec1-4061-a569-46d09733c668) 
 # History
 - 2014-07-02
+	* Bumbed version to VsCommandBuddy to v1.7
+	* Fixed a bug where adding up path segments would lead to undesired paths.
+
+- 2014-07-02
 	* Fixed a bug where VsCommandBuddy would not work without a solution vscb file.
 	* Updated status info to be more specific (StatusInfo can be obtained using the Help command).
 
