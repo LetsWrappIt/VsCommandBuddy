@@ -2,7 +2,7 @@
 # History
 - 2014-07-02
 	* Bumbed version to VsCommandBuddy to v1.7
-	* Fixed a bug where adding up path segments would lead to undesired paths.
+	* Fixed a bug where adding up pathsegments would lead to undesired paths. See [pathfixing](pathfixing.md)
 
 - 2014-07-02
 	* Fixed a bug where VsCommandBuddy would not work without a solution vscb file.

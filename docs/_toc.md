@@ -9,6 +9,7 @@ The following documentation is available:
 - [Vscb configuration files](vscbfiles.md)
 - [Shortcut keys](shortcutkeys.md)
 - [Macros](macros.md)
+- [PathFixing](pathfixing.md)
 - [History](history.md) -- containing a summary overview of the updates.
 
 Require additional info? Do open an issue so we can fix it.
