@@ -1,5 +1,9 @@
 [Table of content](_toc.md)
 # History
+- 2014-07-02
+	* Bumbed version to VsCommandBuddy to v1.6
+    * Added an options dialog for the generating example vscb files command. Select for which solution/project you want to generate an example vscb file.
+
 - 2014-07-01
 	* Bumbed version to VsCommandBuddy to v1.5
     * Added support for confirmation dialogs before invoking a command.
