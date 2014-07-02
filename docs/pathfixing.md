@@ -75,23 +75,24 @@ The macro OutputDir2 does not end in Dir, so PathFixing is not applied.
 Sometimes PathFixing is required in other places as well, such as the `arguments` field in a command definition.
 This can be solved using a user defined macro.
 
-If the `arguments` string looks like:
+The `arguments` string:
 
 `grunt --verbose --no-color --base=$(SolutionDir)..\\Dist\\`
 
-it resolves to:
+erroneously resolves to:
 
 `grunt --verbose --no-color --base=c:\\projects\webprojects\\myhelloworldsolution\\..\\Dist\\`
+
 
 One solution is to use a user defined macro:
 
 `"BaseDir" : "$(SolutionDir)..\\Dist"`
 
-And the the following `arguments` value:
+In combination with the following `arguments` value:
 
 `grunt --verbose --no-color --base=$(BaseDir)`
 
-This resolves to:
+This succesfully resolves to:
 
 `grunt --verbose --no-color --base=c:\\projects\webprojects\\Dist\\`
 

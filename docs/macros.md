@@ -49,6 +49,12 @@ Example:
 
 ```
 
+##### Name convention of user defined macros
+You're free to use the name of your macros, as long as you use proper json tokens.
+
+However, user defined macro NAMES that end with Dir, are considered references to a directory.
+In those cases, VsCommandBuddy applies [PathFixing](pathfixing.md).
+
 
 ### Where are macros applicable?
 Macros can be used:
@@ -58,6 +64,6 @@ Macros can be used:
   - cwd
   - confirmMessage
 
-- in the macros section of the [solution vscb file](vscbfiles.md) (as values).
+- in the values of user defined macros (`macros` section of the [solution vscb file](vscbfiles.md)).
 
-The macros are demonstrated in the MacroDemo solution.
+The usage of macros is demonstrated in the MacroDemo solution.
