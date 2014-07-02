@@ -1,6 +1,10 @@
 [Table of content](_toc.md) --- [VsCommandBuddy in VisualStudio Gallery](http://visualstudiogallery.msdn.microsoft.com/f5da988e-2ec1-4061-a569-46d09733c668) 
 # History
 - 2014-07-02
+	* Fixed a bug where VsCommandBuddy would not work without a solution vscb file.
+	* Updated status info to be more specific (StatusInfo can be obtained using the Help command).
+
+- 2014-07-02
 	* Bumbed version to VsCommandBuddy to v1.6
     * Added an options dialog for the generating example vscb files command. Select for which solution/project you want to generate an example vscb file.
 
