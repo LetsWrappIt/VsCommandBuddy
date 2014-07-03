@@ -101,6 +101,8 @@ Json vscb file:
 - Here you can specify your own macors. Its an json object, with macroname and value pairs. 
 	- Specify the name like this MyMacro.
 	- Use the macro like this $(MyMacro).
+- Macronames ending in Dir (such as 'RootDir') have [pathfixing](pathfixing.md) applied.
+
 - Example:
 ```json
 {
@@ -150,9 +152,9 @@ Json vscb file:
 `cwd`
 - Required: No
 - Default: `empty`
-- The cwd value will be used to preset the current working directory. 
+- The cwd value will be used to preset the current working directory. [PathFixing](pathfixing.md) is applied here.
 - This field value may contain macros.
-- Example: `$(SolutionFullFileName)` 
+- Example: `$(SolutionDir)` 
 
 `async`
 - Required: No
