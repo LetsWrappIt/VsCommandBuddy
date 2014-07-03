@@ -10,15 +10,15 @@ The status contains information as:
 - Vscb files found
 - Number of commands loaded
 
-The help function will output the documentation into the output window you have in Visual Studio.
+The help function will output the info into the output window you have in Visual Studio.
 
 #### Generate vscb
 If you choose the command 'Tools - Generate vscb', VsCommandBuddy will generate an example solution [vscb file](vscbfiles.md) and one 
 project [vscb file](vscbfiles.md) for each project in the solution.
 
-If VsCommandBuddy finds an existing vscb configuration file, it will not overwrite that one.
+Existing vscb files will NOT be overwritten.
 
-Before it starts generating the template vscb files, you'll be offered an options dialog allowing you to select which vscb files you want to be generated.
+Before it starts generating the template vscb files, an options dialog appears, allowing you to select which vscb files you want to be generated.
 
 
 #### Refresh
