@@ -1,5 +1,9 @@
 [Table of content](_toc.md) --- [VsCommandBuddy in VisualStudio Gallery](http://visualstudiogallery.msdn.microsoft.com/f5da988e-2ec1-4061-a569-46d09733c668) 
 # History
+- 2014-07-03
+	* Bumbed version to VsCommandBuddy to v1.8
+	* Fixed the problem that command output was not send to the outputwindow while the command was executing, but only afterwards. Now, the output is send to the outputwindow as it happens.
+
 - 2014-07-02
 	* Bumbed version to VsCommandBuddy to v1.7
 	* Fixed a bug where adding up pathsegments would lead to undesired paths. See [pathfixing](pathfixing.md)
