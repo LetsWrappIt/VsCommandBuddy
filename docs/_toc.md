@@ -5,7 +5,7 @@
 - [README.md](../README.md)
 - [Use-cases](usecases.md)
 - [Getting started](gettingstarted.md)
-- [Built in commands](builtincommands.md)
+- [Built-in commands](builtincommands.md)
 - [Vscb configuration files](vscbfiles.md)
 - [Shortcut keys](shortcutkeys.md)
 - [Macros](macros.md)
