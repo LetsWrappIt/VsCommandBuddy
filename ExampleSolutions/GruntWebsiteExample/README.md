@@ -1,7 +1,7 @@
 ﻿VsCommandBuddy on: [VisualStudioGallery](http://visualstudiogallery.msdn.microsoft.com/f5da988e-2ec1-4061-a569-46d09733c668) --- [Github](https://github.com/PaulHuizer/VsCommandBuddy)
 
 ## GruntWebsiteExample
-This is a very basic slution, demonstrating how to hook up grunt with your website project using VsCommandBuddy.
+This is a very basic solution, demonstrating how to hook up grunt with your website project using VsCommandBuddy.
 
 The example shows how to make a sprite image using [grunt-spritesmith](https://www.npmjs.org/package/grunt-spritesmith) plugin.
 
