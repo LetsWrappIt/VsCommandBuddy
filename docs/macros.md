@@ -10,13 +10,17 @@ Using macros, it is possible to customize the invokation of commands, depending 
 - $(FullConfiguration)
 	- Example value:  'Debug | Any CPU' 
 - $(SolutionDir)
-	- Example value:  'c:\\projects\'myproject\\' 
+	- Example value:  'c:\\projects\\mysolution\\' 
 - $(SolutionFullFileName)
-	- Example value:  'c:\\projects\'myproject\\mysolution.sln' 
+	- Example value:  'c:\\projects\\mysolution\\mysolution.sln' 
 - $(SolutionFileName)
 	- Example value:  'mysolution.sln' 
 - $(SolutionName)
 	- Example value:  'mysolution' 
+- $(SolutionVscbFileName)
+	- Example value:  'c:\\projects\\mysolution\\mysolution.sln.vscb.json' 
+
+
 - $(StartupProjectDir)
 	- Example value:  'c:\\projects\'myproject\\helloworld\\' 
 - $(StartupProjectFullFileName)
@@ -25,6 +29,8 @@ Using macros, it is possible to customize the invokation of commands, depending 
 	- Example value:  'helloworld.csproj' 
 - $(StartupProjectName)
 	- Example value:  'helloworld' 
+- $(StartupProjectVscbFileName)
+	- Example value:  'helloworld.csproj.vscb.json' 
 
 #### Project macros (use with commands in vscb project)
 - $(ProjectDir)
@@ -35,6 +41,9 @@ Using macros, it is possible to customize the invokation of commands, depending 
 	- Example value:  'helloworld.csproj' 
 - $(ProjectName)
 	- Example value:  'helloworld' 
+- $(ProjectVscbFileName)
+	- Example value:  'helloworld.csproj.vscb.json' 
+
 
 #### User defined macros
 In the solution vscb file it is possible to define your own macros. Each macro has a macro name and a macro value. Make sure you choose unique macronames.
