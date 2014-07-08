@@ -1,4 +1,4 @@
-﻿VsCommandBuddy on: [VisualStudioGallery](http://visualstudiogallery.msdn.microsoft.com/f5da988e-2ec1-4061-a569-46d09733c668) [Github:](https://github.com/PaulHuizer/VsCommandBuddy)
+﻿VsCommandBuddy on: [VisualStudioGallery](http://visualstudiogallery.msdn.microsoft.com/f5da988e-2ec1-4061-a569-46d09733c668) --- [Github](https://github.com/PaulHuizer/VsCommandBuddy)
 
 # GruntWebsiteExample
 This is a very basic slution, demonstrating how to hook up grunt with your website project using VsCommandBuddy.
