@@ -3,4 +3,5 @@
 *.cache
 obj
 bin
+node_modules
 VsCommandBuddy.sln

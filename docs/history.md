@@ -1,5 +1,10 @@
 [Table of content](_toc.md) --- [VsCommandBuddy in VisualStudio Gallery](http://visualstudiogallery.msdn.microsoft.com/f5da988e-2ec1-4061-a569-46d09733c668) 
 # History
+- 2014-07-08
+	* Bumbed version to VsCommandBuddy to v1.10
+	* Added some nicer designed buttons with letters in it which makes for easier navigation.
+	* Added example website with a grunt command.
+
 - 2014-07-04
 	* Bumbed version to VsCommandBuddy to v1.9
 	* Fixed a problem with the async command launching method 

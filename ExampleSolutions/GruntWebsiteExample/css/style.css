@@ -1,0 +1,8 @@
+#navlist {
+    list-style-type : none;
+}
+#navlist a{
+    margin-left:50px;
+    display:block;
+    width:200px;
+}

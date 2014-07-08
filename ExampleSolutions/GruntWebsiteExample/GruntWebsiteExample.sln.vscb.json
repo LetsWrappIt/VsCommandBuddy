@@ -1,0 +1,39 @@
+{
+  "vscb_version": "1.0",
+  "description": "This is an example vscb solution config file.",
+  "homepage_url": "https://github.com/PaulHuizer/VsCommandBuddy/",
+  "author": "Paul Huizer",
+  "verbose": true,
+  "commands": [
+    {
+      "cmdname": "solutioncmdprompt",
+      "title": "Cmdprompt in the solution folder",
+      "description": "Open cmd prompt using cmd command.",
+      "cwd": "$(SolutionDir)",
+      "filename": "cmd",
+      "async": true
+    },
+    {
+      "cmdname": "editsolvscb",
+      "title": "Edit the solution vscb file using notepad.exe.",
+      "description": "Opens notepad to start editing the solution vscb file.",
+      "cwd": "$(SolutionDir)",
+      "filename": "notepad.exe",
+      "arguments": "$(SolutionFileName).vscb.json",
+      "async": true,
+      "key1": "5",
+      "mod1": "CTRL SHIFT",
+      "confirmCaption": "Edit the solution vscb file using notepad?",
+      "confirmMessage": "Are you sure you want to edit: \r\n $(SolutionFileName).vscb.json?",
+      "confirmIcon": "Warning"
+    },
+    {
+      "cmdname": "gruntmakesprite",
+      "title": "Grunt: MakeSprite",
+      "description": "Start grunt without task but with grunt option.",
+      "cwd": "$(SolutionDir)",
+      "filename": "grunt",
+      "arguments": "--base=$(SolutionDir) --gruntfile=grunt\\gruntfile.js --verbose --configuration=$(Configuration) makeSprite"
+    }
+  ]
+}
