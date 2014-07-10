@@ -26,8 +26,8 @@ Paul
 
 
 #### Notes
-- [Getting staterd](docs/gettingstarted.md).
-- Documentation [Table of content](docs/_toc.md).
+- [Getting started](docs/gettingstarted.md).
+- [Table of content](docs/_toc.md).
 - [Whats new](docs/history.md)? 
 - Who should use VsCommandBuddy? Checkout some [usecases](docs/usecases.md).
 - Feedback!! Did you give VsCommandBuddy a try? Please share your experience. Good or bad. Your feedback will help make VsCommandBuddy more useful!!
