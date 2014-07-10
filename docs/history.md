@@ -1,5 +1,10 @@
 [Table of content](_toc.md) --- [VsCommandBuddy in VisualStudio Gallery](http://visualstudiogallery.msdn.microsoft.com/f5da988e-2ec1-4061-a569-46d09733c668) 
 # History
+- 2014-07-10
+	* Bumbed version to VsCommandBuddy to v1.13
+	* Added support for appref-ms click-once commands.
+	* Added an initial setup for a command library.
+
 - 2014-07-08
 	* Bumbed version to VsCommandBuddy to v1.12
 	* Added new macros: SolutionVscbFileName, StartupProjectVscbFileName, ProjectVscbFileName

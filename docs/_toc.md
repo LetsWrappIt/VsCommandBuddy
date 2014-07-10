@@ -10,6 +10,7 @@
 - [Shortcut keys](shortcutkeys.md)
 - [Macros](macros.md)
 - [PathFixing](pathfixing.md)
+- [CommandLibrary](commandlibrary.md)
 - [History log](history.md)
 
 Require additional info? Do open an issue so we can fix it.

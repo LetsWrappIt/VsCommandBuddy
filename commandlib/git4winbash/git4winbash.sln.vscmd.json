@@ -1,0 +1,9 @@
+﻿{
+    "cmdname": "git4winbash",
+    "title": "Open git bash prompt",
+    "description": "Opens a git bash prompt in the root of the solution.",
+    "filename": "bash",
+    "cwd": "$(SolutionDir)",
+    "arguments": "--login -i",
+    "async": true
+}
