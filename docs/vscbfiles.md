@@ -1,4 +1,4 @@
-[Table of content](_toc.md) --- [VsCommandBuddy in VisualStudio Gallery](http://visualstudiogallery.msdn.microsoft.com/f5da988e-2ec1-4061-a569-46d09733c668) 
+[Table of contents](_toc.md) --- [VsCommandBuddy in VisualStudio Gallery](http://visualstudiogallery.msdn.microsoft.com/f5da988e-2ec1-4061-a569-46d09733c668) 
 # Vscb files
 
 For brevity, the VsCommandBuddy configuration files are referred to as vscb files, vscb config files or more precise a solution 
