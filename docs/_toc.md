@@ -11,6 +11,7 @@
 - [Macros](macros.md)
 - [PathFixing](pathfixing.md)
 - [CommandLibrary](commandlibrary.md)
+- [Customizing the VsCommandBuddy Toolbar](customizetoolbar.md)
 - [History log](history.md)
 
 Require additional info? Do open an issue so we can fix it.
