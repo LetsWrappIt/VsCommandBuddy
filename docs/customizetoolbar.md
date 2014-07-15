@@ -8,10 +8,10 @@ This may lead to a long toolbar, with in some cases only a few active commands.
 Fortunately -- to some extend --, Visual Studio lets you, the Visual Studio user, customize its toolbars. You can disable and enable buttons .. however, it's not dynamic.
 
 Full toolbar:
-![Full VsCommandBuddy Toolbar][../images/vscommanbuddytoolbar_atoz.png]
+![Full VsCommandBuddy Toolbar](../images/vscommanbuddytoolbar_atoz.png)
 
 Customized toolbar:
-![Customized VsCommandBuddy Toolbar][../images/vscommanbuddytoolbar_abijklmn.png]
+![Customized VsCommandBuddy Toolbar](../images/vscommanbuddytoolbar_abijklmn.png)
 
 This issue does not exist in the tools menu, there VsCommandBuddy only enables menuitems which are in fact defined commands.
 
