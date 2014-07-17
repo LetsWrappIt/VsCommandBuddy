@@ -1,5 +1,9 @@
 [Table of contents](_toc.md) --- [VsCommandBuddy in VisualStudio Gallery](http://visualstudiogallery.msdn.microsoft.com/f5da988e-2ec1-4061-a569-46d09733c668) 
 # History
+- 2014-07-?? (not yet released)
+	* Bumbed version to VsCommandBuddy to v1.16
+	* Added macro support in command title
+
 - 2014-07-15
 	* Bumbed version to VsCommandBuddy to v1.15
 	* Added project name as prefix to the command captions when the command is defined in project vscb file, now also applied to the tools menu items, not only the toolbar.
