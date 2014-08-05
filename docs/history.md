@@ -1,5 +1,9 @@
 [Table of contents](_toc.md) --- [VsCommandBuddy in VisualStudio Gallery](http://visualstudiogallery.msdn.microsoft.com/f5da988e-2ec1-4061-a569-46d09733c668) 
 # History
+- 2014-08-5
+	* Bumbed version to VsCommandBuddy to v1.17
+	* Improved output to output window. See [issue#4](https://github.com/PaulHuizer/VsCommandBuddy/issues/4)
+
 - 2014-07-17
 	* Bumbed version to VsCommandBuddy to v1.16
 	* Added macro support in command title
