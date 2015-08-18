@@ -1,5 +1,9 @@
 [Table of contents](_toc.md) --- [VsCommandBuddy in VisualStudio Gallery](http://visualstudiogallery.msdn.microsoft.com/f5da988e-2ec1-4061-a569-46d09733c668) 
 # History
+- 2015-08-17
+	* Bumbed version to VsCommandBuddy to v1.19
+	* Added support for VisualStudio 2015 (Community, Pro and Enterprise). Visual Studio 2013 Pro is still supported.
+
 - 2014-08-8
 	* Bumbed version to VsCommandBuddy to v1.18
 	* Set focus on toolwindow OutputWindow on each command. See [issue#4](https://github.com/PaulHuizer/VsCommandBuddy/issues/4), second part.
