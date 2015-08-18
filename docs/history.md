@@ -2,7 +2,7 @@
 # History
 - 2015-08-17
 	* Bumbed version to VsCommandBuddy to v1.19
-	* Added support for VisualStudio 2015 (Community, Pro and Enterprise). Visual Studio 2013 Pro is still supported..
+	* Added support for VisualStudio 2015 (Community, Pro and Enterprise). Visual Studio 2013 Pro is still supported.
 
 - 2014-08-8
 	* Bumbed version to VsCommandBuddy to v1.18
