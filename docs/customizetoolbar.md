@@ -3,15 +3,15 @@
 
 As of release 1.15, VsCommandBuddy toolbar and menu items now go the full alphabet (ie 26 items in stead of 20).
 By default, Visual Studio shows all 26 buttons in the toolbar. Unfortunately, it seems impossible to disable the buttons of a main toolbar element programmatically in the case no commands are defined. 
-This may lead to a long toolbar, with in some cases only a few active commands.
+This may lead to a long toolbar, while probalby only a few have commands defined for it.
 
-Fortunately -- to some extend --, Visual Studio lets you, the Visual Studio user, customize its toolbars. You can disable and enable buttons .. however, it's not dynamic.
+Fortunately Visual Studio lets you, to some extend customize toolbars. You can disable and enable buttons by hand.
 
 Full toolbar:
 
 ![Full VsCommandBuddy Toolbar](../images/vscommanbuddytoolbar_atoz.png)
 
-Customized toolbar:
+Customized toolbar (with some buttons disabled):
 
 ![Customized VsCommandBuddy Toolbar](../images/vscommanbuddytoolbar_abijklmn.png)
 
