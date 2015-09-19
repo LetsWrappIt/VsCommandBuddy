@@ -1,5 +1,10 @@
 [Table of contents](_toc.md) --- [VsCommandBuddy in VisualStudio Gallery](http://visualstudiogallery.msdn.microsoft.com/f5da988e-2ec1-4061-a569-46d09733c668) 
 # History
+
+- 2015-09-19
+	* Bumbed version to VsCommandBuddy to v1.20
+	* Added support for VisualStudio Ultimate.
+
 - 2015-08-17
 	* Bumbed version to VsCommandBuddy to v1.19
 	* Added support for VisualStudio 2015 (Community, Pro and Enterprise). Visual Studio 2013 Pro is still supported.
