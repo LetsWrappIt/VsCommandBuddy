@@ -1,6 +1,11 @@
 [Table of contents](_toc.md) --- [VsCommandBuddy in VisualStudio Gallery](http://visualstudiogallery.msdn.microsoft.com/f5da988e-2ec1-4061-a569-46d09733c668) 
 # History
 
+- 2017-03-07
+	* Bumbed version to VsCommandBuddy to v1.21
+	* Added support for VisualStudio 2017.
+	* Changed the Async launcher to use StartProcess to overcome accessdenied issue with previous solution using IVsLaunchpad.
+
 - 2015-09-19
 	* Bumbed version to VsCommandBuddy to v1.20
 	* Added support for VisualStudio Ultimate.
