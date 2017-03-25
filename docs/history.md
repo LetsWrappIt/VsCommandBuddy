@@ -20,6 +20,10 @@
 	- Since v1.22:	$(SolutionDir)\  = c:\projects\mysolution\
 
 	This also applies to: StartupProjectDir, ProjectDir
+	* Changed docs where the dir usage is mentioned.
+	* Improvement to macro documentation
+	* Generation of solution vscb file, now includes a macro section in the soltuion vscb file.
+
 
 - 2017-03-07
 	* Bumbed version to VsCommandBuddy to v1.21
