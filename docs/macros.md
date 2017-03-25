@@ -52,10 +52,12 @@ Applying a user defined macro is done exactly like other macros using the $('Mac
 Example:
 ```json
 {
+  "vscb_version": "1.0",
+  "macros": {
 	"SomeMacro" : "$(NextMacro)\\output",
 	"NextMacro" : "$(SolutionDir)"
+	}
 }
-
 ```
 
 ##### Name convention of user defined macros
@@ -63,7 +65,6 @@ You're free to use the name of your macros, as long as you use proper json token
 
 However, user defined macro NAMES that end with Dir, are considered references to a directory.
 In those cases, VsCommandBuddy applies [PathFixing](pathfixing.md).
-
 
 ### Where are macros applicable?
 Macros can be used:
@@ -75,4 +76,7 @@ Macros can be used:
 
 - in the values of user defined macros (`macros` section of the [solution vscb file](vscbfiles.md)).
 
+### Find out more
 The usage of macros is demonstrated in the MacroDemo solution.
+Ssince v1.22, newly generated solutions vscb files contain the macro section.
+
