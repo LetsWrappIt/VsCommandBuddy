@@ -4,25 +4,30 @@
 - 2017-03-25
 	* Bumbed version to VsCommandBuddy to v1.22
 	* Added support for FolderSolutions in VisualStudio 2017 (solutions which are opened in VS2017 by 
-	opening a folder, without usage of a sln or proj files.)
-	* BREAKING CHANGE: Change the Dir macros to no longer end with a slash. This will require you to update the vscb 
+	  opening a folder, without usage of a sln or proj files.)
+	  For folder solution, a VsCbFolderSolution.sln.vscb.json is placed in the root directory of the solution.
+
+	* BREAKING CHANGE: The Dir macros no longer end with a slash. This will require you to update the vscb 
 	files.
 	Example: 
 	- Previously:	$(SolutionDir)  = c:\projects\mysolution\
 	- Since v1.22:	$(SolutionDir)  = c:\projects\mysolution
 
-	The motivations for this change is that this makes the $(SolutionDir) macro easier to use as argument in for script files, that need the bare path to the directory.
+	The motivations for this change is that this makes the $(SolutionDir) macro easier to use as arguments for script files.
+	In (batch) script files it is often much easier to add a slash where required, than it is to remove a slash when needed.
 
 	Workaround:
-	If you require the trailing slash in your projects, simply add the slash to where the $(SolutionDir) macro is used:
+	If you require the trailing slash in your projects, add the slash to where the $(SolutionDir) macro is used:
 	Example: 
 	- Previously:	$(SolutionDir)  = c:\projects\mysolution\
 	- Since v1.22:	$(SolutionDir)\  = c:\projects\mysolution\
 
 	This also applies to: StartupProjectDir, ProjectDir
+
 	* Changed docs where the dir usage is mentioned.
 	* Improvement to macro documentation
-	* Generation of solution vscb file, now includes a macro section in the soltuion vscb file.
+	* Generation of solution vscb file, now includes a macro section in the solution vscb file, to demonstrate user defined macros.
+	* Generation of solution vscb file, now includes the us of the $(SolutionVscbFileName) macro.
 
 
 - 2017-03-07

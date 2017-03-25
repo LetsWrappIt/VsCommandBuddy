@@ -60,7 +60,7 @@ Example:
 }
 ```
 
-##### Name convention of user defined macros
+#### Name convention of user defined macros
 You're free to use the name of your macros, as long as you use proper json tokens.
 
 However, user defined macro NAMES that end with Dir, are considered references to a directory.
