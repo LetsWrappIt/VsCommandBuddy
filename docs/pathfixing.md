@@ -3,15 +3,15 @@
 When combining paths there are some particular circumstances that might lead to problems. The following example explains the case.
 
 ### Example
-We have our solution stored in: c:\\projects\webprojects\\myhelloworldsolution\\
+We have our solution stored in: c:\\projects\webprojects\\myhelloworldsolution
 
-Hence, $(SolutionDir) resolves to: "c:\\projects\webprojects\\myhelloworldsolution\\"
+Hence, $(SolutionDir) resolves to: "c:\\projects\webprojects\\myhelloworldsolution"
 
 Furthermore, we have the following two macros defined in the solution vscb file:
 
 ```json
 {
-"OutputDir" : "$(BaseDir)..\\output\\",
+"OutputDir" : "$(BaseDir)\\..\\output\\",
 "BaseDir" : "$(SolutionDir)"
 }
 ```
@@ -21,7 +21,7 @@ The above definition of 2 macros is valid, but WITHOUT the PathFix solution, the
 ```json
 {
 "OutputDir" : "c:\\projects\webprojects\\myhelloworldsolution\\..\\output\\",
-"BaseDir" : "c:\\projects\webprojects\\myhelloworldsolution\\"
+"BaseDir" : "c:\\projects\webprojects\\myhelloworldsolution"
 }
 ```
 
@@ -30,18 +30,18 @@ WITH the PathFix solution, it resolves to:
 ```json
 {
 "OutputDir" : "c:\\projects\webprojects\\output\\",
-"BaseDir" : "c:\\projects\webprojects\\myhelloworldsolution\\"
+"BaseDir" : "c:\\projects\webprojects\\myhelloworldsolution"
 }
 ```
 
 
 ### Where is PathFixing applied?
-The pathfix solution can only be applied in situations where we it is safe to assume the value is actually a name of a Directory.
+The pathfix solution can only be applied in situations where we think it is safe to assume the value is actually a name of a Directory.
 
 #### The `cwd` field
 The `cwd` field in the command definition is an example where the value can be assumed to be a path of a directory. PathFixing is applied here.
 
-`"cwd" : "$(BaseDir)..\\output\\"`
+`"cwd" : "$(BaseDir)\\..\\output\\"`
 
 Resolves to:
 
@@ -53,8 +53,8 @@ Expanding on the first example:
 
 ```json
 {
-"OutputDir" : "$(BaseDir)..\\output\\",
-"OutputDir2" : "$(BaseDir)..\\output\\",
+"OutputDir" : "$(BaseDir)\\..\\output\\",
+"OutputDir2" : "$(BaseDir)\\..\\output\\",
 "BaseDir" : "$(SolutionDir)"
 }
 ```
@@ -65,7 +65,7 @@ Resolves to:
 {
 "OutputDir" : "c:\\projects\webprojects\\output\\",
 "OutputDir2" : "c:\\projects\webprojects\\myhelloworldsolution\\..\\output\\",
-"BaseDir" : "c:\\projects\webprojects\\myhelloworldsolution\\"
+"BaseDir" : "c:\\projects\webprojects\\myhelloworldsolution"
 }
 ```
 
@@ -77,7 +77,7 @@ This can be solved using a user defined macro.
 
 The `arguments` string:
 
-`grunt --verbose --no-color --base=$(SolutionDir)..\\Dist\\`
+`grunt --verbose --no-color --base=$(SolutionDir)\\..\\Dist\\`
 
 erroneously resolves to:
 
@@ -86,7 +86,7 @@ erroneously resolves to:
 
 One solution is to use a user defined macro:
 
-`"BaseDir" : "$(SolutionDir)..\\Dist"`
+`"BaseDir" : "$(SolutionDir)\\..\\Dist"`
 
 In combination with the following `arguments` value:
 

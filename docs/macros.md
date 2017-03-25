@@ -10,7 +10,7 @@ Using macros, it is possible to customize the invokation of commands, depending 
 - $(FullConfiguration)
 	- Example value:  'Debug | Any CPU' 
 - $(SolutionDir)
-	- Example value:  'c:\\projects\\mysolution\\' 
+	- Example value:  'c:\\projects\\mysolution' 
 - $(SolutionFullFileName)
 	- Example value:  'c:\\projects\\mysolution\\mysolution.sln' 
 - $(SolutionFileName)
@@ -22,7 +22,7 @@ Using macros, it is possible to customize the invokation of commands, depending 
 
 
 - $(StartupProjectDir)
-	- Example value:  'c:\\projects\'myproject\\helloworld\\' 
+	- Example value:  'c:\\projects\'myproject\\helloworld' 
 - $(StartupProjectFullFileName)
 	- Example value:  'c:\\projects\'myproject\\helloworld\\helloworld.csproj' 
 - $(StartupProjectFileName)
@@ -34,7 +34,7 @@ Using macros, it is possible to customize the invokation of commands, depending 
 
 #### Project macros (use with commands in vscb project)
 - $(ProjectDir)
-	- Example value:  'c:\\projects\'myproject\\helloworld\\' 
+	- Example value:  'c:\\projects\'myproject\\helloworld' 
 - $(ProjectFullFileName)
 	- Example value:  'c:\\projects\'myproject\\helloworld\\helloworld.csproj' 
 - $(ProjectFileName)
@@ -52,7 +52,7 @@ Applying a user defined macro is done exactly like other macros using the $('Mac
 Example:
 ```json
 {
-	"SomeMacro" : "$(NextMacro)output\\",
+	"SomeMacro" : "$(NextMacro)\\output",
 	"NextMacro" : "$(SolutionDir)"
 }
 
