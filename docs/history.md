@@ -5,6 +5,21 @@
 	* Bumbed version to VsCommandBuddy to v1.22
 	* Added support for FolderSolutions in VisualStudio 2017 (solutions which are opened in VS2017 by 
 	opening a folder, without usage of a sln or proj files.)
+	* BREAKING CHANGE: Change the Dir macros to no longer end with a slash. This will require you to update the vscb 
+	files.
+	Example: 
+	- Previously:	$(SolutionDir)  = c:\projects\mysolution\
+	- Since v1.22:	$(SolutionDir)  = c:\projects\mysolution
+
+	The motivations for this change is that this makes the $(SolutionDir) macro easier to use as argument in for script files, that need the bare path to the directory.
+
+	Workaround:
+	If you require the trailing slash in your projects, simply add the slash to where the $(SolutionDir) macro is used:
+	Example: 
+	- Previously:	$(SolutionDir)  = c:\projects\mysolution\
+	- Since v1.22:	$(SolutionDir)\  = c:\projects\mysolution\
+
+	This also applies to: StartupProjectDir, ProjectDir
 
 - 2017-03-07
 	* Bumbed version to VsCommandBuddy to v1.21
