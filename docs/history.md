@@ -10,11 +10,11 @@
 	* BREAKING CHANGE: The Dir macros no longer end with a slash. This will require you to update the vscb 
 	files.
 	Example: 
-	- Previously:	$(SolutionDir)  = c:\projects\mysolution\
-	- Since v1.22:	$(SolutionDir)  = c:\projects\mysolution
+		- Previously:	$(SolutionDir)  = c:\projects\mysolution\
+		- Since v1.22:	$(SolutionDir)  = c:\projects\mysolution
 
-	The motivations for this change is that this makes the $(SolutionDir) macro easier to use as arguments for script files.
-	In (batch) script files it is often much easier to add a slash where required, than it is to remove a slash when needed.
+	The motivation for this change is that this makes the $(SolutionDir) macro easier to use as arguments for script files.
+	In (batch) script files it is easier to add a slash than to remove a slash. This way you have both.
 
 	Workaround:
 	If you require the trailing slash in your projects, add the slash to where the $(SolutionDir) macro is used:
