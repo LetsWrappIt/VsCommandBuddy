@@ -1,6 +1,10 @@
 [Table of contents](_toc.md) --- [VsCommandBuddy in VisualStudio Gallery](http://visualstudiogallery.msdn.microsoft.com/f5da988e-2ec1-4061-a569-46d09733c668) 
 # History
 
+- 2017-05-4
+	* Bumbed version to VsCommandBuddy to v1.23
+	* Fixed bug that prevented reading of VsCb project files 
+
 - 2017-03-25
 	* Bumbed version to VsCommandBuddy to v1.22
 	* Added support for FolderSolutions in VisualStudio 2017 (solutions which are opened in VS2017 by 
