@@ -1,6 +1,11 @@
 [Table of contents](_toc.md) --- [VsCommandBuddy in VisualStudio Gallery](http://visualstudiogallery.msdn.microsoft.com/f5da988e-2ec1-4061-a569-46d09733c668) 
 # History
 
+- 2017-12-16
+	* Bumbed version to VsCommandBuddy to v1.25
+	* Fixed a bug:  for some projects the value of the macro ProjectDir ended with backslash. 
+	  The backslash is removed to be consistent with other Dir macros (see update v1.22).
+
 - 2017-12-10
 	* Bumbed version to VsCommandBuddy to v1.24
 	* Added support for new ProjectType Guid {9A19103F-16F7-4668-BE54-9A1E7A4F7556}
