@@ -3,6 +3,10 @@
 
 - 2017-12-16
 	* Bumbed version to VsCommandBuddy to v1.25
+	* Fixed a bug:  The vscb project file for website projects was not found in website folder.
+
+- 2017-12-16
+	* Bumbed version to VsCommandBuddy to v1.25
 	* Fixed a bug:  for some projects the value of the macro ProjectDir ended with backslash. 
 	  The backslash is removed to be consistent with other Dir macros (see update v1.22).
 
