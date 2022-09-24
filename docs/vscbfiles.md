@@ -1,8 +1,8 @@
 [Table of contents](_toc.md) --- [VsCommandBuddy in VisualStudio Gallery](http://visualstudiogallery.msdn.microsoft.com/f5da988e-2ec1-4061-a569-46d09733c668) 
 # Vscb files
 
-For brevity, the VsCommandBuddy configuration files are referred to as vscb files, vscb config files or more precise a solution 
-vscb file or a project vscb file. The vscb files live alongside the sln and various types of Visual Studio project files.
+The VsCommandBuddy configuration files are referred to as vscb files or vscb config files. Each solution and each project 
+can have one 1 vscb config file. The vscb files live alongside the sln and various types of Visual Studio project files.
 
 #### Solution vscb file filename and location
 Solution vscb file, one per Visual Studio solution.
@@ -155,6 +155,11 @@ Json vscb file:
 - The cwd value will be used to preset the current working directory. [PathFixing](pathfixing.md) is applied here.
 - This field value may contain macros.
 - Example: `$(SolutionDir)` 
+
+`saveAll`
+- Required: No
+- Default: `false`
+- The saveAll value is true or false. If true, VsCommandBuddy will trigger the SaveAll function of Visual Studio before launcing the command.
 
 `async`
 - Required: No
