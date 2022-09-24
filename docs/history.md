@@ -3,11 +3,11 @@
 
 - 2022-09020
 	* Bumbed version to VsCommandBuddy to v2.0.30
-	* The new version of VsCommandBuddy is referred to as VsCommandBuddyV2
+	* The new version of VsCommandBuddy is referred to as VsCommandBuddyV2.
 	* Migrated the extension to the new 'AsyncPackage' for better security and perfomance of Visual Studio.
-	* Introduced support for VS2022. The VsCommandV2 VSIX does not supports Vs2015/2017/2019. 
-	  Earlier version still supports VS2015 and VS2017. This version is available via github.
-	* Added saveAll feature
+	* Introduced support for VS2022. The VsCommandV2 VSIX does not support Vs2015/2017/2019. 
+	  Earlier version still supports VS2015 and VS2017. This version is available via github for download.
+	* Added command saveAll feature
 	* Added shortcut keys in the description of the toolbar buttons.
 	* Removed the dynamic commands from the menu (more compact). So the custom commands are visible through the VsCommandBuddy toolbar.
 
