@@ -4,8 +4,6 @@ GitHub 4 Windows is known as one of the easier gui tools to work with GitHub. Of
 The git4winbash command opens up a command prompt in the right folder, including the Git context info.
 
 
-
-
 ### Versions:
 - Solution version
 - Project version
