@@ -1,7 +1,11 @@
 [Table of contents](_toc.md) --- [VsCommandBuddy in VisualStudio Gallery](http://visualstudiogallery.msdn.microsoft.com/f5da988e-2ec1-4061-a569-46d09733c668) 
 # History
 
-- 2022-09020
+- 2022-??-??
+	* Bumbed version to v2.0.31
+	* GitHub location changed to LetsWrappIt/VsCommandBuddy
+
+- 2022-09-20
 	* Bumbed version to v2.0.30
 	* The new version of VsCommandBuddy is referred to as VsCommandBuddyV2.
 	* Migrated the extension to the new 'AsyncPackage' for better security and startup performance of Visual Studio.

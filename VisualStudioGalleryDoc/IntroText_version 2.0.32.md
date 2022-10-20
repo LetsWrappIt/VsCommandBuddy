@@ -43,8 +43,8 @@ ps. Earlier versions of the VSIX for earlier versions of visual studio are avail
 
 Links:
 
-- [What's new?](https://github.com/PaulHuizer/VsCommandBuddy/blob/master/docs/history.md).
-- [Getting started](https://github.com/PaulHuizer/VsCommandBuddy/blob/master/docs/gettingstarted.md).
-- [Documentation](https://github.com/PaulHuizer/VsCommandBuddy/blob/master/docs/_toc.md).
-- [Homepage](https://github.com/PaulHuizer/VsCommandBuddy/blob/master/README.md).
+- [What's new?](https://github.com/LetsWrappIt/VsCommandBuddy/blob/master/docs/history.md).
+- [Getting started](https://github.com/LetsWrappIt/VsCommandBuddy/blob/master/docs/gettingstarted.md).
+- [Documentation](https://github.com/LetsWrappIt/VsCommandBuddy/blob/master/docs/_toc.md).
+- [Homepage](https://github.com/LetsWrappIt/VsCommandBuddy/blob/master/README.md).
 
